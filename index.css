@@ -23,6 +23,9 @@ body{
     width:5%;
     margin-top:5px;
 }
+#Logo>img{
+    border-radius:40px;
+}
 img{
     width:100%;
 }
