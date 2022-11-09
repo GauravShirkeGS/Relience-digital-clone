@@ -1,0 +1,116 @@
+#addvertise{
+    width: 100%;
+
+}
+
+#addvertise>img{
+    width: 100%;
+    /* position:static; */
+}
+#info{
+    text-align: center;
+    color: #003380;
+}
+
+#info>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+
+}
+#card-4>div>p,#card-4>div>h3{
+    line-height: 0px;
+}
+#card-4>div{
+    border: 1px solid gray;
+    border-radius: 9px;
+    background-color: #f7f7f7;
+    padding: 5px 0px;
+    height: 90px;
+}
+#card-4{
+    width: 95%;
+    margin: auto;
+}
+#card-4>div>img{
+     height: 40px;
+}
+
+#container-1>div{
+    display: flex;
+    width: 98%;
+    height: 320px;
+    margin: auto;
+    /* border: 1px solid black; */
+    /* padding: 9px 0px; */
+}
+
+#iphone{
+    flex: 9;
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+   
+}
+#container-1>div>img{
+    flex: 1;
+    width: 350px;
+}
+
+#iphone>div>img{
+    width: 55%;
+    height: 55%;
+    margin-left: 42px;
+    padding: 5px 10px;
+}
+#container-1{
+    border: 1px solid gray;
+    margin-top: 40px;
+    /* padding: 0px 40px; */
+    height: 440px;
+border-left: none;
+border-right: none;
+border-width: 100%;
+}
+#iphone>div{
+    /* border: 1px solid red; */
+    width: 250px;
+    padding-left: 10px;
+    line-height: 22px;
+    
+}
+#iphone>div>h3{
+    height: 28px;
+}
+.offers{
+    margin-top: 0px;
+    color: green;
+    border-radius: 7px;
+    border:  1px solid green;
+}
+
+#container-1>p{
+    font-size: 23px;
+    color: black;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+#container-1>p>span{
+    font-size: 16px;
+    color: #003380;
+    font-weight: bold;
+}
+#container-1>p>span:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#iphone>div:hover{
+   color: red;
+}
+
+#iphone>div>img:hover{
+    width: 65%;
+    margin-left: 25px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="add_products">
+        <h1>Add Products</h1>
+    <form id="form">
+      <input type="text" id="name" placeholder="Name">
+      <input type="number" id="price" placeholder="Price">
+      <select name="" id="typeof">
+        <option value="apple_iphone"> Apple iPhone</option>
+        <option value="musicProduct">musicProduct</option>
+        <option value="tv">TV</option>
+        <option value="watches">Watches</option>
+        <option value="Other">Other</option>
+      </select>
+      <input type="text" id="description" placeholder="warranty">
+      <input type="text" id="delivery" placeholder="features">
+      <input type="url" id="image" placeholder="Image url">
+    </form>
+     <button onclick="post_data()" id="add_product">add product</button>
+      </div>
+</body>
+</html>
+<script src="./add_products.js"></script>

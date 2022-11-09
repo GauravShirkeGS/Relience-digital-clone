@@ -6,6 +6,147 @@
       "author": "typicode"
     }
   ],
+  "apple_iphone": [
+    {
+      "id": 1000,
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177752-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDYyM3xpbWFnZS9qcGVnfGltYWdlcy9oMGQvaDc0Lzk4OTA0ODY1MTc3OTAuanBnfGZiNzc0ODMzZjdmMGNjMGE3MmEwMGVlNDgzNTYxYzlkZThjOGNmYzIwYzI1NDFmZmY0MDMyYmQ0ZjNlMjkyN2U",
+      "name": "Apple iPhone 14 128 GB, Blue",
+      "price": "79,900",
+      "warranty": "Warranty: 1 Year manufacturer warranty",
+      "features": "1. 15.40 cm (6.1 inch) Super Retina XDR OLED Display 2. 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 3. 12 MP Selfie Camera, iOS 16 Operating System 4. Rated IP68 Splash, Water and Dust Resistant"
+    },
+    {
+      "name": "Apple iPhone 14 Plus 512 GB, Blue",
+      "price": "119900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177777-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzUyMnxpbWFnZS9qcGVnfGltYWdlcy9oZGIvaDBmLzk4OTA1NzEyNTU4MzguanBnfDhmMWZhM2EyNmVmOTMwZjRjZjgyZGMxZTdmYzAxMGYzYTM3YTc2YjhlZDgwYWI0MGFiNTJlMzlhYWU3NDg5OTU",
+      "id": 1001
+    },
+    {
+      "name": "Apple iPhone 14 128 GB, Midnight",
+      "price": "79900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177749-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MjYxNnxpbWFnZS9qcGVnfGltYWdlcy9oNWQvaGYxLzk4OTA0ODgyODcyNjIuanBnfDZiZWJmNDQ2ZmEwOGNiY2EzNzVjZWZiMjY0NjBhMGYwYzk3MzQ4NDZjYzY1MzliZTZjYmJjZWNhNzdjMDA0ZjY",
+      "id": 1002
+    },
+    {
+      "name": "Apple iPhone 14 Plus 128 GB, Starlight",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177765-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzA2NXxpbWFnZS9qcGVnfGltYWdlcy9oNTMvaDE3Lzk4OTA1MzU4NjYzOTguanBnfDdiYzIwYTk5YjVjYjE1YzAzNTdjYzY4MThjNmEzOTliNDUxYzI1MGM0MzZkZjEzN2IyM2Q2YzQ5NmNlMThlOWI",
+      "id": 1003
+    },
+    {
+      "name": "Apple iPhone 14 Plus 512 GB, Blue",
+      "price": "119900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177777-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzUyMnxpbWFnZS9qcGVnfGltYWdlcy9oZGIvaDBmLzk4OTA1NzEyNTU4MzguanBnfDhmMWZhM2EyNmVmOTMwZjRjZjgyZGMxZTdmYzAxMGYzYTM3YTc2YjhlZDgwYWI0MGFiNTJlMzlhYWU3NDg5OTU",
+      "id": 1004
+    },
+    {
+      "name": "Apple iPhone 14 512 GB, Midnight",
+      "price": "109900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177759-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MzY0NHxpbWFnZS9qcGVnfGltYWdlcy9oMTQvaGUzLzk4OTA1MjA3Mjc1ODIuanBnfGQ4NmJiZWZlNzMwZTFiNTY4ZGFhOWY2ZWMzYTU3MjIzYjY0MTE1MDc2YjNmMDg3ZjI1MmJjNjJhZTA2MzJiZmM",
+      "id": 1005
+    },
+    {
+      "name": "Apple iPhone 14 512 GB, Midnight",
+      "price": "109900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177759-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MzY0NHxpbWFnZS9qcGVnfGltYWdlcy9oMTQvaGUzLzk4OTA1MjA3Mjc1ODIuanBnfGQ4NmJiZWZlNzMwZTFiNTY4ZGFhOWY2ZWMzYTU3MjIzYjY0MTE1MDc2YjNmMDg3ZjI1MmJjNjJhZTA2MzJiZmM",
+      "id": 1006
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Red",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "hthttps://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177756-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3NzA4MnxpbWFnZS9qcGVnfGltYWdlcy9oODUvaDNlLzk4OTA1MDEzOTQ0NjIuanBnfDc4ZjdkYzExNjA2NTE3NzMyMTNkMGUxYmQwNGI5NDg0MTYxMmRjZjI1ZGNlMzc2ODRkNjc3MzkwNjJlMjcwNTM",
+      "id": 1007
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Purple",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177758-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NjUzNHxpbWFnZS9qcGVnfGltYWdlcy9oYWUvaGY3Lzk4OTA1MDkyNTg3ODIuanBnfGI0N2FkZjIxNDU3Mzc0OTVkZjcyMGFjZTVlMWNmYTRkOGU4MmRlNDUyOWRhZTdiNTRmYzBkZjY1MTYyNDQwNjI",
+      "id": 1008
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Starlight",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177755-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzA1NXxpbWFnZS9qcGVnfGltYWdlcy9oMGYvaGJmLzk4OTA1MDA0MTE0MjIuanBnfGIyZDc4YjQwZTdlMzExNjY3NWVhZDEyMzkwN2EyODI3Y2VjMzg0ZjhkZmIxNmUyZTliNTY4Njc3M2VhYWYxNjM",
+      "id": 1009
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Midnight",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177754-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MzY1MnxpbWFnZS9qcGVnfGltYWdlcy9oMjgvaDQ1Lzk4OTA0OTc0NjIzMDIuanBnfGY2YjE0OWMyZWU4ZjJiMmZkZWNhZGZjZmNhMDI5MTU1NDk5Y2JhMTM2NjZhNWM4ZTIyYWM2NjZiMzgyOTRlOTY",
+      "id": 1010
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Blue",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177757-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2OTU0M3xpbWFnZS9qcGVnfGltYWdlcy9oMTEvaDc0Lzk4OTA1MTQxNzM5ODIuanBnfGM0NDI2OWI3ZTE2ODhjZTUzOWVhOWM5MTY1YmYwYjEyZDIzMjEwZTA0NjdkZjA3ODAyZjIwOTE1ODBjOWMxYjQ",
+      "id": 1011
+    },
+    {
+      "name": "Apple iPhone 14 512 GB, Midnight",
+      "price": "109900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177759-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MzY0NHxpbWFnZS9qcGVnfGltYWdlcy9oMTQvaGUzLzk4OTA1MjA3Mjc1ODIuanBnfGQ4NmJiZWZlNzMwZTFiNTY4ZGFhOWY2ZWMzYTU3MjIzYjY0MTE1MDc2YjNmMDg3ZjI1MmJjNjJhZTA2MzJiZmM",
+      "id": 1012
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Red",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "hthttps://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177756-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3NzA4MnxpbWFnZS9qcGVnfGltYWdlcy9oODUvaDNlLzk4OTA1MDEzOTQ0NjIuanBnfDc4ZjdkYzExNjA2NTE3NzMyMTNkMGUxYmQwNGI5NDg0MTYxMmRjZjI1ZGNlMzc2ODRkNjc3MzkwNjJlMjcwNTM",
+      "id": 1013
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Purple",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177758-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NjUzNHxpbWFnZS9qcGVnfGltYWdlcy9oYWUvaGY3Lzk4OTA1MDkyNTg3ODIuanBnfGI0N2FkZjIxNDU3Mzc0OTVkZjcyMGFjZTVlMWNmYTRkOGU4MmRlNDUyOWRhZTdiNTRmYzBkZjY1MTYyNDQwNjI",
+      "id": 1014
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Starlight",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177755-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzA1NXxpbWFnZS9qcGVnfGltYWdlcy9oMGYvaGJmLzk4OTA1MDA0MTE0MjIuanBnfGIyZDc4YjQwZTdlMzExNjY3NWVhZDEyMzkwN2EyODI3Y2VjMzg0ZjhkZmIxNmUyZTliNTY4Njc3M2VhYWYxNjM",
+      "id": 1015
+    },
+    {
+      "name": "Apple iPhone 14 Plus 256 GB, Purple",
+      "price": "99900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177773-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NjcyOXxpbWFnZS9qcGVnfGltYWdlcy9oNzEvaDllLzk4OTA1NjQwNDY4NzguanBnfDJjYWFhY2E4MTZjMmQzN2EwZTU3YWRlZGQ2NmVkNWE0MWJmMTkyNDViYWZiYTkxOGQzOTVmNjI2NWNmZjRlOGM",
+      "id": 1016
+    }
+  ],
+  "tv": [],
+  "watches": [],
+  "other": [],
   "comments": [
     {
       "id": 1,
