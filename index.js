@@ -22,3 +22,36 @@ const Slideshow=()=>{
     },3000);
 }
 Slideshow()
+
+
+const get_headphones_data=async()=>{
+    
+    try{
+        let res=await fetch(`http://localhost:3000/musicProduct`);
+        let data=await res.json();
+        appendslider(data);
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+get_headphones_data();
+
+
+
+const appendslider=(data)=>{
+    let div=document.getElementById("headphones");
+    data.forEach((el)=>{
+        let card=document.createElement("div");
+        card.setAttribute("class","card");
+        
+        let img=document.createElement("img");
+        img.src=el.imageURL;
+        let name=document.createElement("h3");
+        name.innerText=el.title;
+        let cost=document.createElement("h3");
+        cost.innerHTML=el.price;
+        card.append(img,name,cost);
+        div.append(card);
+    });
+}

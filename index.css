@@ -86,3 +86,12 @@ img{
     font-weight:500;
     padding:10px;
 }
+
+#headphones{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+#headphones>.card>img{
+    width: 100%;
+}
