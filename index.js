@@ -22,3 +22,74 @@ const Slideshow=()=>{
     },3000);
 }
 Slideshow()
+
+
+const get_headphones_data=async()=>{
+    
+    try{
+        let res=await fetch(`http://localhost:3000/musicProduct`);
+        let data=await res.json();
+        appendslider(data);
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+get_headphones_data();
+
+
+
+const appendslider=(data)=>{
+let div=document.querySelector(".slider");
+
+div.innerHTML=null;
+data.forEach((el)=>{
+    let card=document.createElement("div");
+    card.style.padding="10px"
+    card.setAttribute("id","slidercard");
+    
+    let img=document.createElement("img");
+    img.src=el.imageURL;
+    let name=document.createElement("h3");
+    name.innerText=el.title;
+    name.setAttribute("class","sliderDescription");
+    let cost=document.createElement("h4");
+    cost.style.marginTop="5px";
+    cost.style.marginBottom="8px";
+    cost.innerHTML="Offer Price &nbsp;"+el.price;
+    let offer=document.createElement("span");
+    offer.innerText="OFFER AVAILABLE";
+    offer.style.color="#91bf93";
+    offer.style.border="1px solid #91bf93";
+    offer.style.borderRadius="20px";
+    offer.style.padding="2px";
+    
+    card.append(img,name,cost,offer);
+    div.append(card);
+});
+}
+
+const prev = document.querySelector('.prev')
+const next = document.querySelector('.next')
+const slider = document.querySelector('.slider')
+
+prev.addEventListener('click', () => {
+    slider.scrollLeft -=300
+
+})
+
+next.addEventListener('click', () => {
+    slider.scrollLeft +=300
+})
+
+
+
+
+
+
+
+
+
+
+
+

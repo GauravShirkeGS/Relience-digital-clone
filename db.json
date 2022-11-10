@@ -2,8 +2,123 @@
   "musicProduct": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "price": 900,
+      "title": "Noise Sense Bluetooth Wireless in Ear, Neckband Earphones with Fast Charging, Up to 25H Playback, Powerful Bass, with mic for Clear Calls, Type C Port, IPX5, Voice Assistant (Jet Black)",
+      "imageURL": "https://www.reliancedigital.in/medias/Noise-SENSE-BLK-HeadphonesandHeadsets-492579170-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0OTg5NXxpbWFnZS9qcGVnfGltYWdlcy9oMzQvaGE0Lzk3ODAxOTcwNjQ3MzQuanBnfGI2ODU2MzMzMTAzNmJkMzNjZmJkNzQ1OGYzZDkyNWY3ZGI5M2Y5NzVlOTM3NDZiOGI4NWY0NTBhOWY4Yjk5OTU"
+    },
+    {
+      "id": 2,
+      "price": 980,
+      "title": "boAt Stone Grenade 5W Portable Wireless Speaker With Multiple Connectivity Modes, Up to 7H Playback, IPX6 Water and Splash Resistance and Rugged Shock Resistant Design, Black",
+      "imageURL": "https://www.reliancedigital.in/medias/boAt-Stone-Grenade-Speaker-491893336-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MzI1MDl8aW1hZ2UvcG5nfGltYWdlcy9oMWYvaDI0Lzk3NzUyNzYwNjQ3OTgucG5nfDE1M2UxZjljY2Y2MDFmYWM4NGU1ZTUzNTdmMTQxOGIzNjExNzllY2MzODEzODBlNDMzOGMyYWE1OTMzYjFhMDg"
+    },
+    {
+      "id": 3,
+      "price": 380,
+      "title": "boAt Airdopes 138 Twin Wireless Earbuds with IWP Technology, Bluetooth V5.0, Immersive Audio, Up to 15H Total Playback, Instant Voice Assistant and Type-C Charging, Steel Blue",
+      "imageURL": "https://www.reliancedigital.in/medias/boAt-Airdopes-138-Airdopes-491973383-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMTAwMnxpbWFnZS9qcGVnfGltYWdlcy9oYmUvaGYwLzk5MDQ0ODY0ODE5NTAuanBnfDMwOTI2ZGM0NzA3ZmFmMWY3YzI4MjA1MDQ3NmFiOTM3Njk0ZTUyMGMyMWJlZTM4Y2QwYmQ0MGM4OTBjMjAzZmU"
+    },
+    {
+      "id": 4,
+      "price": 389,
+      "title": "Hammer Sting 3 Bluetooth Wireless Neckband Earphone with Sweat-proof and Deep Bass, Black Red with 1 year warranty",
+      "imageURL": "https://www.reliancedigital.in/medias/Hammer-Sting-3-0-Earphone-492796748-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MjE0NHxpbWFnZS9qcGVnfGltYWdlcy9oZjcvaGYwLzk4MTU4MjE5NzU1ODIuanBnfDcxMjJkNWU1NjY1MmJiOThlOTRhOTMxMTdmMzZlMjlmNzY1MDg1MTVjNjEyY2UyMzJkZTc5MmYxNzNmMmU3YTc"
+    },
+    {
+      "id": 5,
+      "price": 699,
+      "title": "Reconnect Dank Bluetooth Earphone, with IPx4, water resistance, 16Hrs Battery , Multi point connection (Black) with 1 year warranty",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Sporty-EP-SE-MIC-Wired-Headphone-Green-491183497-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2ODg5OHxpbWFnZS9qcGVnfGltYWdlcy9oNTEvaDhhLzg5NDczODI4MTI3MDIuanBnfDUzYjkxZTJmNmVjZmQ1OGRiMGRmZDk2ZTMzMjc5OGMwM2EwMGU1YjRmMDUzYjJmYzI5NGZlYmNlYmIxMjhhZTc"
+    },
+    {
+      "id": 6,
+      "price": 699,
+      "title": "pTron Basspods P181 Bluetooth 5.1 Wireless Headphones, 32Hrs Total Playtime, Immersive Stereo Sound, Stereo Calls, Snug-fit TWS Earbuds, Touch Controls, Voice Assistance, Type-C Fast Charging & IPX4 (Black)",
+      "imageURL": "https://www.reliancedigital.in/medias/ZEBRONIC-SOUND-BOMB-4-True-Wireless-492796841-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1ODc3OHxpbWFnZS9qcGVnfGltYWdlcy9oNjMvaDkxLzk4MjUzNDAzOTE0NTQuanBnfDliZTZlNzRlMDkyYTA2MmM5NmQyNWFjMTRmZjZiODdlYjI2NjBiOTQ4ZTcwN2UxNmU0ZDQ5ZmMwYWM4NzhiYTc"
+    },
+    {
+      "id": 7,
+      "price": 899,
+      "title": "boAt Rockerz 255 Pro Wireless Neckband Earphone with Up to 10 Hours Playback, Midnightblue",
+      "imageURL": "https://www.reliancedigital.in/medias/boAt-Rockerz-255-Pro-Airdopes-492913061-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNTI1NXxpbWFnZS9qcGVnfGltYWdlcy9oZWQvaDk0Lzk5MDQ1MTUzMTc3OTAuanBnfDdiM2RhNzcxNDcwYWRiNTNmNTY2N2JkNDZjMjkxYTdlYTE1NzhlY2FlMDE1NmYzZThhOTJjNjZiNjljYjc0Y2M"
+    },
+    {
+      "id": 8,
+      "price": 1499,
+      "title": "Realme Buds Q2 True wireless Earphone with Active Noise Cancellation, 28 hours Total Playback, Active Black",
+      "imageURL": "https://www.reliancedigital.in/medias/Realme-Q2-ANC-TWS-Buds-492338704-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNzIwN3xpbWFnZS9qcGVnfGltYWdlcy9oMDgvaDcyLzk2MTA3MzgwNDA4NjIuanBnfDczMmU5OWUzZjJiNDU1NWUwNzU3NTNhNmViMjg4YWEwZDA4MzAwMTFhZDcwYjViYmM2NGNjZjA2ZDY4OTFhM2Y"
+    },
+    {
+      "id": 9,
+      "price": 1299,
+      "title": "boAt Airdopes 148 True Wireless Airdopes, Active Black",
+      "imageURL": "https://www.reliancedigital.in/medias/boAt-Airdopes148-TrueWireless-492579512-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNDY3NzV8aW1hZ2UvanBlZ3xpbWFnZXMvaGE0L2g2Mi85ODE2NDAxMzEzODIyLmpwZ3w4MTM4ZGI2MWNmOGFlNTUxMjg1ODMzY2FmY2UxZjczNWY1OTBmZjE2ZDQyMzNkNTI4ZWIxYTlkZjA5ZGY4ODAz"
+    },
+    {
+      "id": 10,
+      "price": 1999,
+      "title": "OnePlus Bullets Z2 Wireless Neckband Earphone with AI Noise Cancellation, Magico Black",
+      "imageURL": "https://www.reliancedigital.in/medias/OnePlus-Bullets-Z2-Wireless-Earphone-492796790-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzOTQ4MnxpbWFnZS9qcGVnfGltYWdlcy9oOGUvaDY0Lzk4MzgxNzk4NDQxMjYuanBnfDcxMDRhMjJmMzYzMjlkODg3NzhjZDFlZDExYTJhNDVhMTA0OTNjYmE1MjA3NTU4ZWE5ZDk2MzY3YjY4YjIyNWU"
+    },
+    {
+      "id": 11,
+      "price": 199,
+      "title": "Reconnect Sporty EP SE-MIC Wired Earphone With Adjustable Ear lobes, Green",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Sporty-EP-SE-MIC-Wired-Headphone-Green-491183497-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2ODg5OHxpbWFnZS9qcGVnfGltYWdlcy9oNTEvaDhhLzg5NDczODI4MTI3MDIuanBnfDUzYjkxZTJmNmVjZmQ1OGRiMGRmZDk2ZTMzMjc5OGMwM2EwMGU1YjRmMDUzYjJmYzI5NGZlYmNlYmIxMjhhZTc"
+    },
+    {
+      "id": 12,
+      "price": 399,
+      "title": "boAt BassHeads 100 In-Ear Wired Earphones With Super Extra Bass, In-line Mic, Hawk Inspired Design and Perfect Length Cable, Black",
+      "imageURL": "https://www.reliancedigital.in/medias/Boat-Bassheads-100-Earphones-491893312-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MzIyOHxpbWFnZS9qcGVnfGltYWdlcy9oMzkvaDVjLzk3NjUzMjI0MjQzNTAuanBnfDg3M2IxYTYwNTdmOTNhOWJiYTUyYTcxMzFkZWZhZjZkYzFhY2JhNTQ0NTI2ZDRhNmVjOWFmOTVmNzE2MDI5ZTM"
+    },
+    {
+      "id": 13,
+      "price": 599,
+      "title": "Reconnect Marvel Captain America Sound Suit Kids Edition, Wired Headphone Over Ear, Sweat resistant, Over ear headphone, in line mic with 1.2m long cable, Siri/Alexa/GoogleOk compatible, Personal accessories- DWH101 CA",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Wired-Headphone-OVE-DWH101-CA-491615068-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMzk4NTJ8aW1hZ2UvanBlZ3xpbWFnZXMvaGNkL2g4Yy85NDA5MDQ1MTY4MTU4LmpwZ3wzZjkzYWFkMTA3ZmVmNjkwMzBiOWMwNWM0ZjE4OTI2YzFmYTIyMTFkM2YxYjMzZGY4MzU2ODMxYjAwZDZjMTdm"
+    },
+    {
+      "id": 14,
+      "price": 699,
+      "title": "Zebronics Zeb Sound Bomb 3 TWS Wireless Earbuds, Blue",
+      "imageURL": "https://www.reliancedigital.in/medias/ZEBRONIC-SOUND-BOMB-4-True-Wireless-492796841-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1ODc3OHxpbWFnZS9qcGVnfGltYWdlcy9oNjMvaDkxLzk4MjUzNDAzOTE0NTQuanBnfDliZTZlNzRlMDkyYTA2MmM5NmQyNWFjMTRmZjZiODdlYjI2NjBiOTQ4ZTcwN2UxNmU0ZDQ5ZmMwYWM4NzhiYTc"
+    },
+    {
+      "id": 15,
+      "price": 599,
+      "title": "Zebronics Zeb-Paradise Wireless Bluetooth Headphone with Mic, Built in FM, MicroSD Card, Voice Assistant, Call Function (Blue)",
+      "imageURL": "https://www.reliancedigital.in/medias/ZEBRONICS-Zeb-PARADISEBLUE-BTSTEREOHEADPHONE-492573075-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MTQ4OHxpbWFnZS9qcGVnfGltYWdlcy9oNzIvaGYyLzk3Mjk1OTM3MDQ0NzguanBnfDliNGIzZWM2ODc0OTc4Y2JhNzhjNTM5ZGJlMTM3NWFkYTlhYTMyNWZlMGE4N2Y0MGUxM2MwMDAyOGUzNjk5M2M"
+    },
+    {
+      "id": 16,
+      "price": 499,
+      "title": "pTron Musicbot Lite 5W Mini Bluetooth Speaker With 6Hrs Playtime, Immersive Sound, 40mm Driver, Bluetooth V5.1 Connectivity (Black)",
+      "imageURL": "https://www.reliancedigital.in/medias/pTron-Musicbot-Lite-Black-Bluetooth-Speaker-493179239-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNDYwMTZ8aW1hZ2UvanBlZ3xpbWFnZXMvaGQ1L2g1Ny85ODk1OTIwMTQwMzE4LmpwZ3w4MTVjNzBkN2MzNDE2NDk4MzI0ZGFkMmI5YjkxNTFhMDM3OGE3OTBlYzRkOGQ0ZTlkN2Y4OGE0YmQ2ODA1NWVi"
+    },
+    {
+      "id": 17,
+      "price": 399,
+      "title": "Reconnect Marvel Avengers Flat bud metal finish Wired Earphone, with Super bass and in line mic, 1.2m long cable, Siri/Alexa/GoogleOk compatible - DWE102 AV",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Disney-DWE102AV-Headphones-and-Headsets-491600550-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMDQ1MTN8aW1hZ2UvanBlZ3xpbWFnZXMvaGQ2L2g0ZC85MzQzMjI2OTcwMTQyLmpwZ3w4NmEwMTM0ODEzYTE3ZTM1M2Q2MDMyMDVmMjkxYjY0N2NkZTE3MmQ4MWNjOWNjZDRiMmUwYzdkZWNmMDc1Nzdl"
+    },
+    {
+      "id": 18,
+      "price": 399,
+      "title": "Hammer Sting 3 Bluetooth Wireless Neckband Earphone, Sweat-proof and Deep Bass, Black with 1 year warranty",
+      "imageURL": "https://www.reliancedigital.in/medias/Hammer-Sting-3-Earphone-492796851-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0MjMxNHxpbWFnZS9qcGVnfGltYWdlcy9oN2EvaDhjLzk4MzEyMDAyMjczNTguanBnfGMwZDBmNDEzMzY5MWRlNGNmYTI3MzU2NDdlZTc1NWY1ZjVlMWExMmFmZjJlMzk0NzBiNzU2YjBmNGQ1NTQwZGU"
+    },
+    {
+      "id": 19,
+      "price": 499,
+      "title": "Reconnect Disney Frozen Wired Headphone specially Crafted for children, 40mm speaker driver, Soft sound qulaity, Sensitivity limited upto 85db, compatible with Siri/Alexa/GoogleOk - DWH102 FR",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Wired-Headphone-Kids-DWH102-FR-491615070-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MTIwMjd8aW1hZ2UvanBlZ3xpbWFnZXMvaDVmL2hjZS85NDExMzk3NTE3MzQyLmpwZ3xkN2U0OTYwNWIwMzRkNWNjYWI4NTYyMTBlNDAwMDMzNzg1NmJhMDZlZjY2ZTZjZTdjMDZiOWIzMDA5MDk5YjNh"
+    },
+    {
+      "id": 20,
+      "price": 899,
+      "title": "boAt Rockerz 400 RTL On-Ear Bluetooth Headphones, Voice Assistant with one-click, Blue",
+      "imageURL": "https://www.reliancedigital.in/medias/Boat-Rockerz-400-RTL-Headphone-491893329-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzE1MTl8aW1hZ2UvanBlZ3xpbWFnZXMvaDRhL2g5My85NzY1NDExMDI5MDIyLmpwZ3w2YjQ0YWU4NjI5MmE3NjU3MWNhMDZlOWE0NTkxMzY2NDY4ZDk2YmNmZjc1MTU0ZjQ5ZjMzNTlkMjk4MzRkMmU2"
     }
   ],
   "apple_iphone": [
