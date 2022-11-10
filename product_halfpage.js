@@ -99,3 +99,32 @@ const append_data = async (el,box) => {
     }
 
 } 
+
+let apple_products = document.getElementById('apple_products');
+
+apple_products.onclick = () => {
+
+  localStorage.setItem('parameter','apple_iphone');
+
+   window.location.href= "all_products.html"
+};
+
+
+let other_products = document.getElementById('other_products');
+
+other_products.onclick = () => {
+
+  localStorage.setItem('parameter','other');
+
+   window.location.href= "all_products.html"
+};
+
+
+let watches_products = document.getElementById('watches_products');
+
+watches_products.onclick = () => {
+
+  localStorage.setItem('parameter','watches');
+
+   window.location.href= "all_products.html"
+};
