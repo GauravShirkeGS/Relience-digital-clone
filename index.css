@@ -19,21 +19,49 @@ body{
 ::-webkit-scrollbar-track{
     background-color:#f1f1f1;
 }
+
+#allnavbar{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin-top: 80px;
+  height: 10%;
+  background-color: #e42529;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 #Navbar{
     display:flex;
     justify-content:space-around;
     align-items:center;
     background-color:#e42529;
+    position: -webkit-sticky;
 }
 #Logo{
     width:5%;
     margin-top:5px;
     height: 80px;
     margin-bottom: 10px;
+    display: flex;
 }
+#Logo>#logo_text{
+  margin: auto;
+  margin-left: 20px;
+  font-size: 30px;
+  font-family:  Helvetica,Arial, sans-serif;
+  font-weight: 900;
+  color: floralwhite;
+}
+
 #Logo>img{
-    border-radius:40px;
-}
+    border-radius:50%;
+    height: 70%;
+    width: 70%;
+    margin-top: 18px;
+  }
 img{
     width:100%;
 }
@@ -96,10 +124,13 @@ img{
     font-size:12px;
     font-weight:500;
     padding:10px;
+    position: fixed;
+    margin-top: 82px;
+    width: 100%;
+    
 }
 
 #slidercard{
-  border: 1px solid red;
   width: 350px;
 }
 
@@ -116,13 +147,7 @@ img{
   padding:0;
   box-sizing: border-box;
 }
-/* body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background: #1878b8;
-} */
+
 .container{
   position: relative;
   display: flex;
@@ -147,7 +172,7 @@ img{
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background:gray;
+  background:lightgray;
   cursor: pointer;
   object-fit: contain;
   padding: 10px;
