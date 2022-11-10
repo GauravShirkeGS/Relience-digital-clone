@@ -1,0 +1,47 @@
+
+#container{
+    display: flex;
+}
+#filter{
+ flex: 2;
+ border: 1px solid;
+}
+
+
+#cards{
+    flex: 8;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.item{
+
+}
+
+.item>img{
+    width: 55%;
+    height: 55%;
+    margin-left: 42px;
+    padding: 5px 10px;
+
+}
+.name{
+    height: 55px;
+    /* margin-bottom: 0px; */
+}
+.offers{
+    margin-top: 0px;
+    color: green;
+    border-radius: 7px;
+    border:  1px solid green;
+}
+
+.item:hover{
+    color: red;
+}
+
+.item>img:hover{
+    /* width: 65%; */
+    /* margin-left: 25px; */
+}
