@@ -36,7 +36,7 @@
      height: 40px;
 }
 
-#container-1>div{
+#container-1>div,#container-2>div,#container-3>div{
     display: flex;
     width: 98%;
     height: 320px;
@@ -45,25 +45,25 @@
     /* padding: 9px 0px; */
 }
 
-#iphone{
+#iphone,#watches,#other{
     flex: 9;
     display: flex;
     gap: 15px;
     justify-content: space-around;
    
 }
-#container-1>div>img{
+#container-1>div>img,#container-2>div>img,#container-3>div>img{
     flex: 1;
     width: 350px;
 }
 
-#iphone>div>img{
+#iphone>div>img,#watches>div>img,#other>div>img{
     width: 55%;
     height: 55%;
     margin-left: 42px;
     padding: 5px 10px;
 }
-#container-1{
+#container-1,#container-2,#container-3{
     border: 1px solid gray;
     margin-top: 40px;
     /* padding: 0px 40px; */
@@ -72,15 +72,16 @@ border-left: none;
 border-right: none;
 border-width: 100%;
 }
-#iphone>div{
+#iphone>div,#watches>div,#other>div{
     /* border: 1px solid red; */
     width: 250px;
     padding-left: 10px;
     line-height: 22px;
     
 }
-#iphone>div>h3{
-    height: 28px;
+.name{
+    height: 50px;
+    /* margin-bottom: 0px; */
 }
 .offers{
     margin-top: 0px;
@@ -89,28 +90,30 @@ border-width: 100%;
     border:  1px solid green;
 }
 
-#container-1>p{
+#container-1>p,#container-2>p,#container-3>p{
     font-size: 23px;
     color: black;
     font-weight: lighter;
     margin-left: 20px;
 }
 
-#container-1>p>span{
+#container-1>p>span,#container-2>p>span,#container-3>p>span{
     font-size: 16px;
     color: #003380;
     font-weight: bold;
 }
-#container-1>p>span:hover{
+#container-1>p>span:hover,#container-2>p>span:hover,#container-3>p>span:hover{
     color: red;
     cursor: pointer;
 }
 
-#iphone>div:hover{
+#iphone>div:hover,#watches>div:hover,#other>div:hover{
    color: red;
+   border-left: 1px solid;
+   border-right: 1px solid;
 }
 
-#iphone>div>img:hover{
+#iphone>div>img:hover,#watches>div>img:hover,#other>div>img:hover{
     width: 65%;
     margin-left: 25px;
 }

@@ -31,17 +31,45 @@ function carousel() {
 
 const iphone_data = async () => {
 
- let res= await fetch(`http://localhost:3000/apple_iphone?product=5`);
+ let res= await fetch(`http://localhost:3000/apple_iphone`);
 
  let data = await res.json();
 
 //  console.log('data:', data);
-append_data(data);
+let iphone_div= document.getElementById('iphone')
+append_data(data,iphone_div);
 
 }
 iphone_data();
 
-const append_data = async (el) => {
+const watches_data = async () => {
+
+  let res= await fetch(`http://localhost:3000/watches`);
+ 
+  let data = await res.json();
+ 
+ //  console.log('data:', data);
+ let watches_div= document.getElementById('watches')
+ append_data(data,watches_div);
+ 
+ }
+ watches_data();
+
+ 
+const other_data = async () => {
+
+  let res= await fetch(`http://localhost:3000/other`);
+ 
+  let data = await res.json();
+ 
+ //  console.log('data:', data);
+ let other_div= document.getElementById('other')
+ append_data(data,other_div);
+ 
+ }
+ other_data();
+
+const append_data = async (el,box) => {
 
     for(let i=0;i<4;i++){
      
@@ -51,8 +79,10 @@ const append_data = async (el) => {
         let img= document.createElement('img');
         img.src = el[i].image;
 
-        let name= document.createElement('h3');
+        let name= document.createElement('p');
         name.innerText= el[i].name;
+        name.setAttribute('class','name');
+
 
         let price= document.createElement('p');
         price.innerText= "Rs"+" "+el[i].price;
@@ -64,7 +94,7 @@ const append_data = async (el) => {
 
         div.append(img,name,price,btn)
 
-        document.getElementById('iphone').append(div);
+       box.append(div);
 
     }
 
