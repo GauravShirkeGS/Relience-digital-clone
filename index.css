@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
 body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin:0;
@@ -22,6 +28,8 @@ body{
 #Logo{
     width:5%;
     margin-top:5px;
+    height: 80px;
+    margin-bottom: 10px;
 }
 img{
     width:100%;
@@ -87,11 +95,75 @@ img{
     padding:10px;
 }
 
-#headphones{
-    display: flex;
-    width: 90%;
-    margin: auto;
+#slidercard{
+  border: 1px solid red;
+  width: 350px;
 }
-#headphones>.card>img{
-    width: 100%;
+
+
+
+
+
+
+/* scroll css */
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #1878b8;
+} */
+.container{
+  position: relative;
+  display: flex;
+  
+}
+.container .slider{
+  display: flex;
+  gap: 20px;
+  padding: 2px;
+  width:100%  ;
+  height:auto;
+  overflow:hidden;
+  scroll-behavior: smooth;
+}
+
+.container .slider img{
+  margin: 3px;
+  width: 300px;
+}
+.container .control{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background:gray;
+  cursor: pointer;
+  object-fit: contain;
+  padding: 10px;
+}
+.container .prev{
+  left: 0;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+.container .next{
+  right: 0;
+  top:50%;
+  transform: translate(50%, -50%);
+}
+
+.sliderDescription{
+  overflow: hidden;
+font-size:15px;
+color:#003380;
+font-weight: 500;
+height: 37px;
 }
