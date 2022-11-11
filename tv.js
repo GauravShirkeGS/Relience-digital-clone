@@ -1,6 +1,7 @@
-import {Navbar,CategoryPanel} from "./components.js"
+import {Navbar,CategoryPanel,footer} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
+document.getElementById("footer").innerHTML=footer();
 
 const cards = async () => {
 
@@ -17,27 +18,31 @@ cards();
  const append_cards = async (data) => {
   
     let card_div = document.getElementById('cards');
+    
     card_div.innerHTML= null;
 
-    data.forEach(({imageURL,title,price,quantity}) => {
+    data.forEach((el) => {
 
         let div= document.createElement('div');
+        div.onclick=()=>{
+            showcarddetails(el);
+        }
         div.setAttribute('class','item');
 
         let img= document.createElement('img');
-        img.src = imageURL;
+        img.src = el.imageURL;
 
         let nameof= document.createElement('p');
-        nameof.innerText = title;
+        nameof.innerText = el.title;
         nameof.setAttribute('class','name');
         
         let productCount= document.createElement('p');
-        productCount.innerText ="Only "+quantity+" left";
+        productCount.innerText ="Only "+el.quantity+" left";
         productCount.setAttribute('class','quantity');
 
 
         let priceof= document.createElement('p');
-        priceof.innerText= price;
+        priceof.innerText= el.price;
         priceof.style.color="black";
 
         let btn= document.createElement('button');
@@ -45,7 +50,7 @@ cards();
         btn.innerText="Offers Available";
         
 
-        div.append(img,nameof,priceof,productCount,btn)
+        div.append(img,nameof,priceof,productCount,btn);
 
        card_div.append(div);
 
@@ -56,6 +61,13 @@ cards();
 
  }
 
+ const showcarddetails=async(data)=>{
+    let arr=[];
+    arr.push(data);    
+        localStorage.setItem("showdetails",JSON.stringify(arr));
+    
+        window.location.href="./showcarddetails.html";
+    }
         //   sorting 
 
  let relevanc = document.getElementById('relevance');

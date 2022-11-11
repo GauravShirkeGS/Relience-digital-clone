@@ -1,16 +1,18 @@
-import {Navbar,CategoryPanel} from "./components.js"
+import {Navbar,CategoryPanel,footer} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
+document.getElementById("footer").innerHTML=footer();
 
 
-let data=JSON.parse(localStorage.getItem("showdetails"))||[];
+let local=JSON.parse(localStorage.getItem("showdetails"))||[];
+let data=local[0];
 let container=document.getElementById("container");
 
 
 let div1=document.createElement("div");
 div1.setAttribute("class","imgdiv");
 let image=document.createElement("img");
-image.src=data[0].imageURL;
+image.src=data.imageURL;
 
 let div2=document.createElement("div");
 div2.setAttribute("class","detailsdiv");
@@ -19,7 +21,7 @@ div2.setAttribute("class","detailsdiv");
 
 let div2_1=document.createElement("div");
 div2_1.setAttribute("class","div2_1");
-div2_1.innerText=data[0].title;
+div2_1.innerText=data.title;
 
 let div2_2=document.createElement("div");
 div2_2.setAttribute("class","div2_2");
@@ -64,7 +66,7 @@ div2_2_2.style.margin="10px";
 
 
 let price=document.createElement("h2");
-price.innerText="Offer Price: "+data[0].price;
+price.innerText="Offer Price: "+data.price;
 price.style.color="green";
 let limited=document.createElement("p");
 limited.innerText="'LIMITED OFFER' GRAB THE DEAL";
@@ -75,6 +77,9 @@ limited.style.margin="10px";
 div2_2_2.append(price,limited);
 
 let cartbutton=document.createElement("button");
+cartbutton.onclick=()=>{
+    addtocart(data);
+}
 cartbutton.innerText="ADD TO CART";
 cartbutton.style.color="white";
 cartbutton.style.backgroundColor="#e42529";
@@ -90,4 +95,35 @@ div2.append(div2_1,div2_2,cartbutton);
 div1.append(image);
 container.append(div1,div2);
 
+let count=0;
+    const addtocart=async(details)=>{
+        try{
+            let newdata={
+                id:details.id,
+                title:details.title,
+                price:details.price,
+                quantity:details.quantity,
+                imageURL:details.imageURL,
+            }
+            if(count==0){
+
+                let res= await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cartproduct`,{
+                    method:"POST",
+                    body: JSON.stringify(newdata),
+                    headers:{
+                        "content-type":"application/json"
+                    }
+                });
+                let data=await res.json();
+                console.log(data);
+                count++;
+            
+            }else{
+                alert("Product has already been added to card !!");
+            }
+        }catch(err){
+            console.log(err);
+        }
+        
+    }
 
