@@ -195,7 +195,17 @@ color:#003380;
 font-weight: 500;
 height: 37px;
 }
-
+a{
+  color: #f1f1f1;
+  text-decoration: none;
+}
+#Logo>#logoimg{
+  width: 60px;
+}
+#Category-Panel div:hover{
+  color:red;
+  
+}
 
 
 
