@@ -174,3 +174,8 @@ margin: 0;
     text-transform:uppercase;
     font-weight:600;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}

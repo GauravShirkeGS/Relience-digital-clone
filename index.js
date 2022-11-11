@@ -1,6 +1,9 @@
 import {Navbar,CategoryPanel,footer} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
+document.getElementById("footer").innerHTML=footer();
+
+
 let Carousel=document.getElementById(`Carousel`);
 const Slideshow=()=>{
     let Images=[`https://www.reliancedigital.in/medias/LG-Friday-Carausel-Banner-09-11-202-D.jpg?context=bWFzdGVyfGltYWdlc3w5OTcwM3xpbWFnZS9qcGVnfGltYWdlcy9oNzAvaDhkLzk5MTkxODcyMjI1NTguanBnfDZjYTc5ZjUwZDY3YzZiNjMwODgwOTMyMzBiZDE4OGVhZGEzMDAyNTUyNWNkYjAyYjljNzM2MTU0OTBiZDM1MjU`,
