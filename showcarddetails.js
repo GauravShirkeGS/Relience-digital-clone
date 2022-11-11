@@ -1,7 +1,16 @@
 import {Navbar,CategoryPanel} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
-
+document.getElementById(`User`).onclick=()=>{
+    window.location.href=`login.html`;
+}
+document.getElementById(`Cart`).onclick=()=>{
+    window.location.href=`cart.html`;
+}
+document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getItem(`Profile`))}`;
+if(JSON.parse(localStorage.getItem(`Profile`))==null){
+    document.getElementById(`Profile`).textContent=` Login`;
+}
 
 let data=JSON.parse(localStorage.getItem("showdetails"))||[];
 let container=document.getElementById("container");

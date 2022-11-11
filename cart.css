@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Helvetica, Arial, sans-serif;
-}
 body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin:0;
@@ -35,7 +29,7 @@ body{
 }
 #Navbar{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     background-color:#e42529;
     position: -webkit-sticky;
@@ -96,7 +90,7 @@ img{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin-right:20px;
+    margin-right:150px;
 }
 #Cart-Count{
     margin-left:-8px;
@@ -127,4 +121,26 @@ img{
     position: fixed;
     margin-top: 82px;
     width: 100%;
+    
+}
+#Empty-Cart{
+    width:15%;
+    margin:auto;
+    margin-top:50px;
+}
+#Empty-Cart+p{
+    font-size:20px;
+    text-align:center;
+}
+#Continue-Shopping{
+    text-align:center;
+}
+Button{
+    padding:15px 30px;
+    border:none;
+    background-color:#e42529;
+    color:white;
+    text-transform:uppercase;
+    font-weight:600;
+    border-radius:5px;
 }

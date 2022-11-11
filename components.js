@@ -1,6 +1,5 @@
 const Navbar=()=>{
-    return `
-    <div id="allnavbar">
+    return `<div id="allnavbar">
     <div id="Logo">
     <img src="https://i.ibb.co/WvkVDSz/2.png" alt="">
     <span id="logo_text">GO SHOP</span>
@@ -11,7 +10,7 @@ const Navbar=()=>{
 </div>
 <div id="CartLogin">
     <div id="Cart"><i class="fa-solid fa-cart-shopping"></i><cart-count id="Cart-Count">0</cart-count><span> Cart</span></div>
-    <div id="User"><i class="fa-solid fa-user"></i><span> Login</span></div>
+    <div id="User"><i class="fa-solid fa-user"></i><span id="Profile"></span></div>
 </div>
 </div>`
 }
