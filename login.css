@@ -13,13 +13,7 @@ body{
 ::-webkit-scrollbar-track{
     background-color:#f1f1f1;
 }
-a{
-    color: #f1f1f1;
-    text-decoration: none;
-}
-#Logo>#logoimg{
-    width: 60px;
-  }
+
 #allnavbar{
   width: 100%;
   margin: auto;
@@ -46,6 +40,7 @@ a{
     height: 80px;
     margin-bottom: 10px;
     display: flex;
+    margin-left:50px;
 }
 #Logo>#logo_text{
   margin: auto;
@@ -96,7 +91,7 @@ img{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin-right:20px;
+    margin-right:100px;
 }
 #Cart-Count{
     margin-left:-8px;
@@ -128,10 +123,54 @@ img{
     margin-top: 82px;
     width: 100%;
 }
-#Category-Panel div{
-    height: 100%;
+#Authentication{
+    display:flex;
+    margin-right:30px;
 }
-#Category-Panel div:hover{
-    color:red;
-    
+#Payment-Offers{
+    flex:6;
+    padding:30px 0 30px 20px;
+}
+#Login-Register{
+    flex:3;
+}
+h3{
+    text-align:center;
+}
+#Login-Header,#Register-Header{
+    display:flex;
+    background-color:#F9FAFD;
+    margin-top:30px;
+    margin-left:40px;
+    font-weight:500;
+    padding:15px;
+    justify-content:center;
+    border:1px solid silver;
+}
+#Login-Form,#Register-Form{
+    margin-left:40px;
+}
+.Name,.Mobile,.Email,.Password{
+    border:1px solid silver;
+    padding:10px;
+}
+input{
+    border:none;
+    outline:none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+margin: 0;
+}
+#Login,#Register{
+    width:100%;
+    padding:15px;
+    border:none;
+    background-color:#e42529;
+    color:white;
+    text-transform:uppercase;
+    font-weight:600;
 }

@@ -3,7 +3,7 @@ let parameter = localStorage.getItem('parameter');
 
 const cards = async () => {
 
- let res = await fetch(`http://localhost:3000/${parameter}`);
+ let res = await fetch(`https://636e114fb567eed48ad1f04d.mockapi.io/${parameter}`);
 
  let data = await res.json();
 
@@ -60,7 +60,7 @@ relevanc.onclick= () => {
 let low = document.getElementById('low');
 low.onclick = async () => {
 
-    let res = await fetch(`http://localhost:3000/${parameter}`)
+    let res = await fetch(`https://636e114fb567eed48ad1f04d.mockapi.io/${parameter}`)
     let data = await res.json();
     data.sort((a,b) => a.price-b.price)
     append_cards(data);
@@ -69,7 +69,7 @@ low.onclick = async () => {
 let high = document.getElementById('high');
 high.onclick = async () => {
 
-    let res = await fetch(`http://localhost:3000/${parameter}`)
+    let res = await fetch(`https://636e114fb567eed48ad1f04d.mockapi.io/${parameter}`)
     let data = await res.json();
     data.sort((a,b) => b.price-a.price)
     append_cards(data);
