@@ -31,7 +31,7 @@ function carousel() {
 
 const iphone_data = async () => {
 
- let res= await fetch(`http://localhost:3000/apple_iphone`);
+ let res= await fetch(`https://636e114fb567eed48ad1f04d.mockapi.io/apple_iphone`);
 
  let data = await res.json();
 
@@ -44,7 +44,7 @@ iphone_data();
 
 const watches_data = async () => {
 
-  let res= await fetch(`http://localhost:3000/watches`);
+  let res= await fetch(`https://636e114fb567eed48ad1f04d.mockapi.io/watches`);
  
   let data = await res.json();
  
@@ -58,7 +58,7 @@ const watches_data = async () => {
  
 const other_data = async () => {
 
-  let res= await fetch(`http://localhost:3000/other`);
+  let res= await fetch(`https://636e114fb567eed48ad1f04d.mockapi.io/other`);
  
   let data = await res.json();
  
@@ -75,6 +75,9 @@ const append_data = async (el,box) => {
      
         let div= document.createElement('div');
         div.setAttribute('class','iphone-14');
+        div.onclick= () => {
+          showCard (el[i]);
+        }
 
         let img= document.createElement('img');
         img.src = el[i].image;
@@ -128,3 +131,12 @@ watches_products.onclick = () => {
 
    window.location.href= "all_products.html"
 };
+
+ const showCard = (data) => {
+  
+  let jsdata= JSON.stringify(data)
+  // console.log(jsdata);
+ localStorage.setItem("showdetailes",jsdata);
+ window.location.href= "card_details.html";
+
+ }
