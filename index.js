@@ -22,7 +22,7 @@ const Slideshow=()=>{
     },3000);
 }
 Slideshow()
-let  api_key="https://636d5048b567eed48abef381.mockapi.io/data";
+let  api_key="https://636d5048b567eed48abef381.mockapi.io/musicProduct";
 
 
 const get_headphones_data=async()=>{

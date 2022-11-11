@@ -10,7 +10,7 @@ function carousel() {
       'https://www.reliancedigital.in/medias/iPhone14-Pro-Buy-now-NPI-Banner-18-10-2022.jpg?context=bWFzdGVyfGltYWdlc3w4OTEzMnxpbWFnZS9qcGVnfGltYWdlcy9oOWUvaDhkLzk5MTM2NTcxMzEwMzguanBnfDVlNjcwMmQyZjhkZmVkNTg2NzY5ZWYwODQyODI3NDllZTZiZWM5ZDUxMjZkZGIzNzI4ZTBmODdmNGYxY2EwNTU'
     ]
   
-   let imgEl = document.createElement('img')
+    let imgEl = document.createElement('img')
     imgEl.src =
       'https://www.reliancedigital.in/medias/Boat-Watch-NPI-Banner-07-11-2022.jpg?context=bWFzdGVyfGltYWdlc3wxMDI4Nzl8aW1hZ2UvanBlZ3xpbWFnZXMvaGY1L2hmOS85OTE2OTExNTgzMjYyLmpwZ3xiYTlhMmVmNjdmNzRlNGQ5Y2EyN2Q3ZTZmNjkzYjVjYjU4MjllMzU1NGUyNjIzZjJiMjNhOWMzZGE0NDE3NTEz'
     document.getElementById('addvertise').append(imgEl)

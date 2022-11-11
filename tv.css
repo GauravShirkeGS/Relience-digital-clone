@@ -28,8 +28,11 @@
 
 }
 .name{
-    height: 55px;
-    /* margin-bottom: 0px; */
+    height: 38px;
+    overflow: hidden;
+}
+.quantity{
+    margin: 5px;
 }
 .offers{
     margin-top: 0px;

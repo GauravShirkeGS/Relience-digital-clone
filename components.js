@@ -1,10 +1,10 @@
 const Navbar=()=>{
     return `
     <div id="allnavbar">
-    <div id="Logo">
-    <img src="https://i.ibb.co/WvkVDSz/2.png" alt="">
+    <a href="./index.html"><div id="Logo">
+    <img id="logoimg" src="https://i.ibb.co/WvkVDSz/2.png" alt="">
     <span id="logo_text">GO SHOP</span>
-</div>
+</div></a>
 <div id="Search-Bar">
     <input type="text" placeholder="Find your favorite products" id="Search-Input">
     <button id="Search-Icon"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
@@ -16,14 +16,16 @@ const Navbar=()=>{
 </div>`
 }
 const CategoryPanel=()=>{
-    return `<div id="MobilesTablets">MOBILES & TABLETS <i class="fa-sharp fa-solid fa-angle-down"></i></div>
-    <div id="Televisions">TELEVISIONS <i class="fa-sharp fa-solid fa-angle-down"></i></div>
-    <div id="Audio">AUDIO <i class="fa-sharp fa-solid fa-angle-down"></i></div>
-    <div id="HomeAppliances">HOME APPLIANCES <i class="fa-sharp fa-solid fa-angle-down"></i></div>
-    <div id="Computers">COMPUTERS <i class="fa-sharp fa-solid fa-angle-down"></i></div>
-    <div id="Cameras">CAMERAS <i class="fa-sharp fa-solid fa-angle-down"></i></div>
-    <div id="KitchenAppliances">KITCHEN APPLIANCES <i class="fa-sharp fa-solid fa-angle-down"></i></div>
-    <div id="PersonalCare">PERSONAL CARE <i class="fa-sharp fa-solid fa-angle-down"></i></div>
-    <div id="Accessories">ACCESSORIES <i class="fa-sharp fa-solid fa-angle-down"></i></div>`
+    return `
+    <a href="#"> <div id="MobilesTablets">MOBILES & TABLETS <i class="fa-sharp fa-solid fa-angle-down"></i></div></a>
+<a href="./tv.html"><div id="Televisions">TELEVISIONS <i class="fa-sharp fa-solid fa-angle-down"></i></div></a>
+<a href="./audio.html"> <div id="Audio">AUDIO <i class="fa-sharp fa-solid fa-angle-down"></i></div></a> 
+ <div id="HomeAppliances">HOME APPLIANCES <i class="fa-sharp fa-solid fa-angle-down"></i></div>
+ <div id="Computers">COMPUTERS <i class="fa-sharp fa-solid fa-angle-down"></i></div>
+ <div id="Cameras">CAMERAS <i class="fa-sharp fa-solid fa-angle-down"></i></div>
+ <div id="KitchenAppliances">KITCHEN APPLIANCES <i class="fa-sharp fa-solid fa-angle-down"></i></div>
+ <div id="PersonalCare">PERSONAL CARE <i class="fa-sharp fa-solid fa-angle-down"></i></div>
+ <div id="Accessories">ACCESSORIES <i class="fa-sharp fa-solid fa-angle-down"></i></div>
+    `
 }
 export {Navbar,CategoryPanel}
