@@ -31,3 +31,7 @@ const Slideshow=()=>{
     },3000);
 }
 Slideshow()
+document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getItem(`Profile`))}`;
+if(JSON.parse(localStorage.getItem(`Profile`))==null){
+    document.getElementById(`Profile`).textContent=` Login`;
+}

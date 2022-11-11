@@ -8,7 +8,7 @@ const Navbar=()=>{
 </div>
 <div id="CartLogin">
     <div id="Cart"><i class="fa-solid fa-cart-shopping"></i><cart-count id="Cart-Count">0</cart-count><span> Cart</span></div>
-    <div id="User"><i class="fa-solid fa-user"></i><span> Login</span></div>
+    <div id="User"><i class="fa-solid fa-user"></i><span id="Profile"></span></div>
 </div>`
 }
 const CategoryPanel=()=>{

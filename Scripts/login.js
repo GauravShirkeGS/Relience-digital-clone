@@ -16,7 +16,7 @@ const Register=async()=>{
     let Email=document.getElementById(`Register-Email`).value;
     let Password=document.getElementById(`Register-Password`).value;
     let SendData={Name,Mobile,Email,Password};
-    let Response=await fetch(`http://localhost:3000/User`,{
+    let Response=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/userdata`,{
         method:"POST",
         body:JSON.stringify(SendData),
         headers:{
@@ -25,7 +25,7 @@ const Register=async()=>{
     });
 }
 const GetData=async()=>{
-    let Response=await fetch(`http://localhost:3000/User`);
+    let Response=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/userdata`);
     let User=await Response.json();
     Login(User)
 }
@@ -39,6 +39,7 @@ const Login=(Data)=>{
         Data.forEach((element)=>{
             if(element.Email==Form.Email&&element.Password==Form.Password){
                 Flag=true;
+                localStorage.setItem(`Profile`,JSON.stringify(element.Name))
             }
         })
         if(Flag){
@@ -49,4 +50,8 @@ const Login=(Data)=>{
             alert(`Please enter correct credentials`)
         }
     }
+}
+document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getItem(`Profile`))}`;
+if(JSON.parse(localStorage.getItem(`Profile`))==null){
+    document.getElementById(`Profile`).textContent=` Login`;
 }

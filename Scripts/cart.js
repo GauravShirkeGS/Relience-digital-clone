@@ -7,3 +7,7 @@ document.getElementById(`Continue-Shopping-Button`).onclick=()=>{
 document.getElementById(`User`).onclick=()=>{
     window.location.href=`login.html`;
 }
+document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getItem(`Profile`))}`;
+if(JSON.parse(localStorage.getItem(`Profile`))==null){
+    document.getElementById(`Profile`).textContent=` Login`;
+}
