@@ -1,6 +1,5 @@
 const Navbar=()=>{
-    return `
-    <div id="allnavbar">
+    return `<div id="allnavbar">
     <div id="Logo">
     <img src="https://i.ibb.co/WvkVDSz/2.png" alt="">
     <span id="logo_text">GO SHOP</span>
