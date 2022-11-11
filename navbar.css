@@ -19,7 +19,13 @@ body{
 ::-webkit-scrollbar-track{
     background-color:#f1f1f1;
 }
-
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+#Logo>#logoimg{
+    width: 60px;
+  }
 #allnavbar{
   width: 100%;
   margin: auto;
@@ -127,5 +133,12 @@ img{
     position: fixed;
     margin-top: 82px;
     width: 100%;
+    
+}
+#Category-Panel div{
+    height: 100%;
+}
+#Category-Panel div:hover{
+    color:red;
     
 }
