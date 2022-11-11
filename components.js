@@ -1,16 +1,18 @@
 const Navbar=()=>{
     return `<div id="allnavbar">
+    <a href="./index.html">
     <div id="Logo">
-    <img src="https://i.ibb.co/WvkVDSz/2.png" alt="">
-    <span id="logo_text">GO SHOP</span>
-</div></a>
+        <img src="https://i.ibb.co/WvkVDSz/2.png" alt="">
+        <span id="logo_text">GO SHOP</span>
+    </div>
+</a>
 <div id="Search-Bar">
     <input type="text" placeholder="Find your favorite products" id="Search-Input">
     <button id="Search-Icon"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
 </div>
 <div id="CartLogin">
-    <div id="Cart"><i class="fa-solid fa-cart-shopping"></i><cart-count id="Cart-Count">0</cart-count><span> Cart</span></div>
-    <div id="User"><i class="fa-solid fa-user"></i><span id="Profile"></span></div>
+<a href="cart.html"><div id="Cart"><i class="fa-solid fa-cart-shopping"></i><cart-count id="Cart-Count">0</cart-count><span> Cart</span></div></a>
+<a href="login.html"><div id="User"><i class="fa-solid fa-user"></i><span id="Profile"></span>Login</div></a>
 </div>
 </div>`
 }

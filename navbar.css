@@ -21,6 +21,7 @@ a{
     width: 60px;
   }
 #allnavbar{
+    padding: 20px;
   width: 100%;
   margin: auto;
   display: flex;
@@ -30,8 +31,8 @@ a{
   margin-top: 80px;
   height: 10%;
   background-color: #e42529;
-  padding-left: 50px;
-  padding-right: 50px;
+
+  
 }
 #Navbar{
     display:flex;
@@ -41,6 +42,7 @@ a{
     position: -webkit-sticky;
 }
 #Logo{
+    padding-left: 50px;
     width:5%;
     margin-top:5px;
     height: 80px;
@@ -59,9 +61,9 @@ a{
 #Logo>img{
     border-radius:50%;
     height: 70%;
-    width: 70%;
+    width: 70px;
     margin-top: 18px;
-  }
+}
 img{
     width:100%;
 }
@@ -90,6 +92,7 @@ img{
 }
 #CartLogin{
     width:15%;
+    padding-right: 50px;
     font-weight:500;
     color:white;
     height:45px;
