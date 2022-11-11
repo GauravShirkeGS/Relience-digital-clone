@@ -19,7 +19,7 @@ body{
     align-items:center;
     background-color:#e42529;
 }
-#Logo{
+#Logo,#Empty-Cart{
     width:5%;
     margin-top:5px;
 }
@@ -89,54 +89,24 @@ img{
     font-weight:500;
     padding:10px;
 }
-#Authentication{
-    display:flex;
-    margin-right:30px;
+#Empty-Cart{
+    width:15%;
+    margin:auto;
+    margin-top:50px;
 }
-#Payment-Offers{
-    flex:6;
-    padding:30px 0 30px 20px;
-}
-#Login-Register{
-    flex:3;
-}
-h3{
+#Empty-Cart+p{
+    font-size:20px;
     text-align:center;
 }
-#Login-Header,#Register-Header{
-    display:flex;
-    background-color:#F9FAFD;
-    margin-top:30px;
-    margin-left:40px;
-    font-weight:500;
-    padding:15px;
-    justify-content:center;
-    border:1px solid silver;
+#Continue-Shopping{
+    text-align:center;
 }
-#Login-Form,#Register-Form{
-    margin-left:40px;
-}
-.Name,.Mobile,.Email,.Password{
-    border:1px solid silver;
-    padding:10px;
-}
-input{
-    border:none;
-    outline:none;
-}
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
-margin: 0;
-}
-#Login,#Register{
-    width:100%;
-    padding:15px;
+Button{
+    padding:15px 30px;
     border:none;
     background-color:#e42529;
     color:white;
     text-transform:uppercase;
     font-weight:600;
+    border-radius:5px;
 }

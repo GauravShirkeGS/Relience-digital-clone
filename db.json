@@ -2,8 +2,586 @@
   "musicProduct": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "price": 900,
+      "title": "Noise Sense Bluetooth Wireless in Ear, Neckband Earphones with Fast Charging, Up to 25H Playback, Powerful Bass, with mic for Clear Calls, Type C Port, IPX5, Voice Assistant (Jet Black)",
+      "imageURL": "https://www.reliancedigital.in/medias/Noise-SENSE-BLK-HeadphonesandHeadsets-492579170-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0OTg5NXxpbWFnZS9qcGVnfGltYWdlcy9oMzQvaGE0Lzk3ODAxOTcwNjQ3MzQuanBnfGI2ODU2MzMzMTAzNmJkMzNjZmJkNzQ1OGYzZDkyNWY3ZGI5M2Y5NzVlOTM3NDZiOGI4NWY0NTBhOWY4Yjk5OTU"
+    },
+    {
+      "id": 2,
+      "price": 980,
+      "title": "boAt Stone Grenade 5W Portable Wireless Speaker With Multiple Connectivity Modes, Up to 7H Playback, IPX6 Water and Splash Resistance and Rugged Shock Resistant Design, Black",
+      "imageURL": "https://www.reliancedigital.in/medias/boAt-Stone-Grenade-Speaker-491893336-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MzI1MDl8aW1hZ2UvcG5nfGltYWdlcy9oMWYvaDI0Lzk3NzUyNzYwNjQ3OTgucG5nfDE1M2UxZjljY2Y2MDFmYWM4NGU1ZTUzNTdmMTQxOGIzNjExNzllY2MzODEzODBlNDMzOGMyYWE1OTMzYjFhMDg"
+    },
+    {
+      "id": 3,
+      "price": 380,
+      "title": "boAt Airdopes 138 Twin Wireless Earbuds with IWP Technology, Bluetooth V5.0, Immersive Audio, Up to 15H Total Playback, Instant Voice Assistant and Type-C Charging, Steel Blue",
+      "imageURL": "https://www.reliancedigital.in/medias/boAt-Airdopes-138-Airdopes-491973383-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMTAwMnxpbWFnZS9qcGVnfGltYWdlcy9oYmUvaGYwLzk5MDQ0ODY0ODE5NTAuanBnfDMwOTI2ZGM0NzA3ZmFmMWY3YzI4MjA1MDQ3NmFiOTM3Njk0ZTUyMGMyMWJlZTM4Y2QwYmQ0MGM4OTBjMjAzZmU"
+    },
+    {
+      "id": 4,
+      "price": 389,
+      "title": "Hammer Sting 3 Bluetooth Wireless Neckband Earphone with Sweat-proof and Deep Bass, Black Red with 1 year warranty",
+      "imageURL": "https://www.reliancedigital.in/medias/Hammer-Sting-3-0-Earphone-492796748-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MjE0NHxpbWFnZS9qcGVnfGltYWdlcy9oZjcvaGYwLzk4MTU4MjE5NzU1ODIuanBnfDcxMjJkNWU1NjY1MmJiOThlOTRhOTMxMTdmMzZlMjlmNzY1MDg1MTVjNjEyY2UyMzJkZTc5MmYxNzNmMmU3YTc"
+    },
+    {
+      "id": 5,
+      "price": 699,
+      "title": "Reconnect Dank Bluetooth Earphone, with IPx4, water resistance, 16Hrs Battery , Multi point connection (Black) with 1 year warranty",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Sporty-EP-SE-MIC-Wired-Headphone-Green-491183497-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2ODg5OHxpbWFnZS9qcGVnfGltYWdlcy9oNTEvaDhhLzg5NDczODI4MTI3MDIuanBnfDUzYjkxZTJmNmVjZmQ1OGRiMGRmZDk2ZTMzMjc5OGMwM2EwMGU1YjRmMDUzYjJmYzI5NGZlYmNlYmIxMjhhZTc"
+    },
+    {
+      "id": 6,
+      "price": 699,
+      "title": "pTron Basspods P181 Bluetooth 5.1 Wireless Headphones, 32Hrs Total Playtime, Immersive Stereo Sound, Stereo Calls, Snug-fit TWS Earbuds, Touch Controls, Voice Assistance, Type-C Fast Charging & IPX4 (Black)",
+      "imageURL": "https://www.reliancedigital.in/medias/ZEBRONIC-SOUND-BOMB-4-True-Wireless-492796841-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1ODc3OHxpbWFnZS9qcGVnfGltYWdlcy9oNjMvaDkxLzk4MjUzNDAzOTE0NTQuanBnfDliZTZlNzRlMDkyYTA2MmM5NmQyNWFjMTRmZjZiODdlYjI2NjBiOTQ4ZTcwN2UxNmU0ZDQ5ZmMwYWM4NzhiYTc"
+    },
+    {
+      "id": 7,
+      "price": 899,
+      "title": "boAt Rockerz 255 Pro Wireless Neckband Earphone with Up to 10 Hours Playback, Midnightblue",
+      "imageURL": "https://www.reliancedigital.in/medias/boAt-Rockerz-255-Pro-Airdopes-492913061-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNTI1NXxpbWFnZS9qcGVnfGltYWdlcy9oZWQvaDk0Lzk5MDQ1MTUzMTc3OTAuanBnfDdiM2RhNzcxNDcwYWRiNTNmNTY2N2JkNDZjMjkxYTdlYTE1NzhlY2FlMDE1NmYzZThhOTJjNjZiNjljYjc0Y2M"
+    },
+    {
+      "id": 8,
+      "price": 1499,
+      "title": "Realme Buds Q2 True wireless Earphone with Active Noise Cancellation, 28 hours Total Playback, Active Black",
+      "imageURL": "https://www.reliancedigital.in/medias/Realme-Q2-ANC-TWS-Buds-492338704-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNzIwN3xpbWFnZS9qcGVnfGltYWdlcy9oMDgvaDcyLzk2MTA3MzgwNDA4NjIuanBnfDczMmU5OWUzZjJiNDU1NWUwNzU3NTNhNmViMjg4YWEwZDA4MzAwMTFhZDcwYjViYmM2NGNjZjA2ZDY4OTFhM2Y"
+    },
+    {
+      "id": 9,
+      "price": 1299,
+      "title": "boAt Airdopes 148 True Wireless Airdopes, Active Black",
+      "imageURL": "https://www.reliancedigital.in/medias/boAt-Airdopes148-TrueWireless-492579512-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNDY3NzV8aW1hZ2UvanBlZ3xpbWFnZXMvaGE0L2g2Mi85ODE2NDAxMzEzODIyLmpwZ3w4MTM4ZGI2MWNmOGFlNTUxMjg1ODMzY2FmY2UxZjczNWY1OTBmZjE2ZDQyMzNkNTI4ZWIxYTlkZjA5ZGY4ODAz"
+    },
+    {
+      "id": 10,
+      "price": 1999,
+      "title": "OnePlus Bullets Z2 Wireless Neckband Earphone with AI Noise Cancellation, Magico Black",
+      "imageURL": "https://www.reliancedigital.in/medias/OnePlus-Bullets-Z2-Wireless-Earphone-492796790-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzOTQ4MnxpbWFnZS9qcGVnfGltYWdlcy9oOGUvaDY0Lzk4MzgxNzk4NDQxMjYuanBnfDcxMDRhMjJmMzYzMjlkODg3NzhjZDFlZDExYTJhNDVhMTA0OTNjYmE1MjA3NTU4ZWE5ZDk2MzY3YjY4YjIyNWU"
+    },
+    {
+      "id": 11,
+      "price": 199,
+      "title": "Reconnect Sporty EP SE-MIC Wired Earphone With Adjustable Ear lobes, Green",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Sporty-EP-SE-MIC-Wired-Headphone-Green-491183497-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2ODg5OHxpbWFnZS9qcGVnfGltYWdlcy9oNTEvaDhhLzg5NDczODI4MTI3MDIuanBnfDUzYjkxZTJmNmVjZmQ1OGRiMGRmZDk2ZTMzMjc5OGMwM2EwMGU1YjRmMDUzYjJmYzI5NGZlYmNlYmIxMjhhZTc"
+    },
+    {
+      "id": 12,
+      "price": 399,
+      "title": "boAt BassHeads 100 In-Ear Wired Earphones With Super Extra Bass, In-line Mic, Hawk Inspired Design and Perfect Length Cable, Black",
+      "imageURL": "https://www.reliancedigital.in/medias/Boat-Bassheads-100-Earphones-491893312-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MzIyOHxpbWFnZS9qcGVnfGltYWdlcy9oMzkvaDVjLzk3NjUzMjI0MjQzNTAuanBnfDg3M2IxYTYwNTdmOTNhOWJiYTUyYTcxMzFkZWZhZjZkYzFhY2JhNTQ0NTI2ZDRhNmVjOWFmOTVmNzE2MDI5ZTM"
+    },
+    {
+      "id": 13,
+      "price": 599,
+      "title": "Reconnect Marvel Captain America Sound Suit Kids Edition, Wired Headphone Over Ear, Sweat resistant, Over ear headphone, in line mic with 1.2m long cable, Siri/Alexa/GoogleOk compatible, Personal accessories- DWH101 CA",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Wired-Headphone-OVE-DWH101-CA-491615068-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMzk4NTJ8aW1hZ2UvanBlZ3xpbWFnZXMvaGNkL2g4Yy85NDA5MDQ1MTY4MTU4LmpwZ3wzZjkzYWFkMTA3ZmVmNjkwMzBiOWMwNWM0ZjE4OTI2YzFmYTIyMTFkM2YxYjMzZGY4MzU2ODMxYjAwZDZjMTdm"
+    },
+    {
+      "id": 14,
+      "price": 699,
+      "title": "Zebronics Zeb Sound Bomb 3 TWS Wireless Earbuds, Blue",
+      "imageURL": "https://www.reliancedigital.in/medias/ZEBRONIC-SOUND-BOMB-4-True-Wireless-492796841-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1ODc3OHxpbWFnZS9qcGVnfGltYWdlcy9oNjMvaDkxLzk4MjUzNDAzOTE0NTQuanBnfDliZTZlNzRlMDkyYTA2MmM5NmQyNWFjMTRmZjZiODdlYjI2NjBiOTQ4ZTcwN2UxNmU0ZDQ5ZmMwYWM4NzhiYTc"
+    },
+    {
+      "id": 15,
+      "price": 599,
+      "title": "Zebronics Zeb-Paradise Wireless Bluetooth Headphone with Mic, Built in FM, MicroSD Card, Voice Assistant, Call Function (Blue)",
+      "imageURL": "https://www.reliancedigital.in/medias/ZEBRONICS-Zeb-PARADISEBLUE-BTSTEREOHEADPHONE-492573075-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MTQ4OHxpbWFnZS9qcGVnfGltYWdlcy9oNzIvaGYyLzk3Mjk1OTM3MDQ0NzguanBnfDliNGIzZWM2ODc0OTc4Y2JhNzhjNTM5ZGJlMTM3NWFkYTlhYTMyNWZlMGE4N2Y0MGUxM2MwMDAyOGUzNjk5M2M"
+    },
+    {
+      "id": 16,
+      "price": 499,
+      "title": "pTron Musicbot Lite 5W Mini Bluetooth Speaker With 6Hrs Playtime, Immersive Sound, 40mm Driver, Bluetooth V5.1 Connectivity (Black)",
+      "imageURL": "https://www.reliancedigital.in/medias/pTron-Musicbot-Lite-Black-Bluetooth-Speaker-493179239-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNDYwMTZ8aW1hZ2UvanBlZ3xpbWFnZXMvaGQ1L2g1Ny85ODk1OTIwMTQwMzE4LmpwZ3w4MTVjNzBkN2MzNDE2NDk4MzI0ZGFkMmI5YjkxNTFhMDM3OGE3OTBlYzRkOGQ0ZTlkN2Y4OGE0YmQ2ODA1NWVi"
+    },
+    {
+      "id": 17,
+      "price": 399,
+      "title": "Reconnect Marvel Avengers Flat bud metal finish Wired Earphone, with Super bass and in line mic, 1.2m long cable, Siri/Alexa/GoogleOk compatible - DWE102 AV",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Disney-DWE102AV-Headphones-and-Headsets-491600550-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMDQ1MTN8aW1hZ2UvanBlZ3xpbWFnZXMvaGQ2L2g0ZC85MzQzMjI2OTcwMTQyLmpwZ3w4NmEwMTM0ODEzYTE3ZTM1M2Q2MDMyMDVmMjkxYjY0N2NkZTE3MmQ4MWNjOWNjZDRiMmUwYzdkZWNmMDc1Nzdl"
+    },
+    {
+      "id": 18,
+      "price": 399,
+      "title": "Hammer Sting 3 Bluetooth Wireless Neckband Earphone, Sweat-proof and Deep Bass, Black with 1 year warranty",
+      "imageURL": "https://www.reliancedigital.in/medias/Hammer-Sting-3-Earphone-492796851-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0MjMxNHxpbWFnZS9qcGVnfGltYWdlcy9oN2EvaDhjLzk4MzEyMDAyMjczNTguanBnfGMwZDBmNDEzMzY5MWRlNGNmYTI3MzU2NDdlZTc1NWY1ZjVlMWExMmFmZjJlMzk0NzBiNzU2YjBmNGQ1NTQwZGU"
+    },
+    {
+      "id": 19,
+      "price": 499,
+      "title": "Reconnect Disney Frozen Wired Headphone specially Crafted for children, 40mm speaker driver, Soft sound qulaity, Sensitivity limited upto 85db, compatible with Siri/Alexa/GoogleOk - DWH102 FR",
+      "imageURL": "https://www.reliancedigital.in/medias/Reconnect-Wired-Headphone-Kids-DWH102-FR-491615070-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MTIwMjd8aW1hZ2UvanBlZ3xpbWFnZXMvaDVmL2hjZS85NDExMzk3NTE3MzQyLmpwZ3xkN2U0OTYwNWIwMzRkNWNjYWI4NTYyMTBlNDAwMDMzNzg1NmJhMDZlZjY2ZTZjZTdjMDZiOWIzMDA5MDk5YjNh"
+    },
+    {
+      "id": 20,
+      "price": 899,
+      "title": "boAt Rockerz 400 RTL On-Ear Bluetooth Headphones, Voice Assistant with one-click, Blue",
+      "imageURL": "https://www.reliancedigital.in/medias/Boat-Rockerz-400-RTL-Headphone-491893329-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzE1MTl8aW1hZ2UvanBlZ3xpbWFnZXMvaDRhL2g5My85NzY1NDExMDI5MDIyLmpwZ3w2YjQ0YWU4NjI5MmE3NjU3MWNhMDZlOWE0NTkxMzY2NDY4ZDk2YmNmZjc1MTU0ZjQ5ZjMzNTlkMjk4MzRkMmU2"
+    }
+  ],
+  "apple_iphone": [
+    {
+      "id": 1000,
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177752-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDYyM3xpbWFnZS9qcGVnfGltYWdlcy9oMGQvaDc0Lzk4OTA0ODY1MTc3OTAuanBnfGZiNzc0ODMzZjdmMGNjMGE3MmEwMGVlNDgzNTYxYzlkZThjOGNmYzIwYzI1NDFmZmY0MDMyYmQ0ZjNlMjkyN2U",
+      "name": "Apple iPhone 14 128 GB, Blue",
+      "price": "79,900",
+      "warranty": "Warranty: 1 Year manufacturer warranty",
+      "features": "1. 15.40 cm (6.1 inch) Super Retina XDR OLED Display 2. 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 3. 12 MP Selfie Camera, iOS 16 Operating System 4. Rated IP68 Splash, Water and Dust Resistant"
+    },
+    {
+      "name": "Apple iPhone 14 Plus 512 GB, Blue",
+      "price": "119900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177777-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzUyMnxpbWFnZS9qcGVnfGltYWdlcy9oZGIvaDBmLzk4OTA1NzEyNTU4MzguanBnfDhmMWZhM2EyNmVmOTMwZjRjZjgyZGMxZTdmYzAxMGYzYTM3YTc2YjhlZDgwYWI0MGFiNTJlMzlhYWU3NDg5OTU",
+      "id": 1001
+    },
+    {
+      "name": "Apple iPhone 14 128 GB, Midnight",
+      "price": "79900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177749-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MjYxNnxpbWFnZS9qcGVnfGltYWdlcy9oNWQvaGYxLzk4OTA0ODgyODcyNjIuanBnfDZiZWJmNDQ2ZmEwOGNiY2EzNzVjZWZiMjY0NjBhMGYwYzk3MzQ4NDZjYzY1MzliZTZjYmJjZWNhNzdjMDA0ZjY",
+      "id": 1002
+    },
+    {
+      "name": "Apple iPhone 14 Plus 128 GB, Starlight",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177765-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzA2NXxpbWFnZS9qcGVnfGltYWdlcy9oNTMvaDE3Lzk4OTA1MzU4NjYzOTguanBnfDdiYzIwYTk5YjVjYjE1YzAzNTdjYzY4MThjNmEzOTliNDUxYzI1MGM0MzZkZjEzN2IyM2Q2YzQ5NmNlMThlOWI",
+      "id": 1003
+    },
+    {
+      "name": "Apple iPhone 14 Plus 512 GB, Blue",
+      "price": "119900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177777-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzUyMnxpbWFnZS9qcGVnfGltYWdlcy9oZGIvaDBmLzk4OTA1NzEyNTU4MzguanBnfDhmMWZhM2EyNmVmOTMwZjRjZjgyZGMxZTdmYzAxMGYzYTM3YTc2YjhlZDgwYWI0MGFiNTJlMzlhYWU3NDg5OTU",
+      "id": 1004
+    },
+    {
+      "name": "Apple iPhone 14 512 GB, Midnight",
+      "price": "109900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177759-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MzY0NHxpbWFnZS9qcGVnfGltYWdlcy9oMTQvaGUzLzk4OTA1MjA3Mjc1ODIuanBnfGQ4NmJiZWZlNzMwZTFiNTY4ZGFhOWY2ZWMzYTU3MjIzYjY0MTE1MDc2YjNmMDg3ZjI1MmJjNjJhZTA2MzJiZmM",
+      "id": 1005
+    },
+    {
+      "name": "Apple iPhone 14 512 GB, Midnight",
+      "price": "109900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177759-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MzY0NHxpbWFnZS9qcGVnfGltYWdlcy9oMTQvaGUzLzk4OTA1MjA3Mjc1ODIuanBnfGQ4NmJiZWZlNzMwZTFiNTY4ZGFhOWY2ZWMzYTU3MjIzYjY0MTE1MDc2YjNmMDg3ZjI1MmJjNjJhZTA2MzJiZmM",
+      "id": 1006
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Red",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "hthttps://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177756-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3NzA4MnxpbWFnZS9qcGVnfGltYWdlcy9oODUvaDNlLzk4OTA1MDEzOTQ0NjIuanBnfDc4ZjdkYzExNjA2NTE3NzMyMTNkMGUxYmQwNGI5NDg0MTYxMmRjZjI1ZGNlMzc2ODRkNjc3MzkwNjJlMjcwNTM",
+      "id": 1007
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Purple",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177758-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NjUzNHxpbWFnZS9qcGVnfGltYWdlcy9oYWUvaGY3Lzk4OTA1MDkyNTg3ODIuanBnfGI0N2FkZjIxNDU3Mzc0OTVkZjcyMGFjZTVlMWNmYTRkOGU4MmRlNDUyOWRhZTdiNTRmYzBkZjY1MTYyNDQwNjI",
+      "id": 1008
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Starlight",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177755-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzA1NXxpbWFnZS9qcGVnfGltYWdlcy9oMGYvaGJmLzk4OTA1MDA0MTE0MjIuanBnfGIyZDc4YjQwZTdlMzExNjY3NWVhZDEyMzkwN2EyODI3Y2VjMzg0ZjhkZmIxNmUyZTliNTY4Njc3M2VhYWYxNjM",
+      "id": 1009
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Midnight",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177754-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MzY1MnxpbWFnZS9qcGVnfGltYWdlcy9oMjgvaDQ1Lzk4OTA0OTc0NjIzMDIuanBnfGY2YjE0OWMyZWU4ZjJiMmZkZWNhZGZjZmNhMDI5MTU1NDk5Y2JhMTM2NjZhNWM4ZTIyYWM2NjZiMzgyOTRlOTY",
+      "id": 1010
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Blue",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177757-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2OTU0M3xpbWFnZS9qcGVnfGltYWdlcy9oMTEvaDc0Lzk4OTA1MTQxNzM5ODIuanBnfGM0NDI2OWI3ZTE2ODhjZTUzOWVhOWM5MTY1YmYwYjEyZDIzMjEwZTA0NjdkZjA3ODAyZjIwOTE1ODBjOWMxYjQ",
+      "id": 1011
+    },
+    {
+      "name": "Apple iPhone 14 512 GB, Midnight",
+      "price": "109900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177759-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MzY0NHxpbWFnZS9qcGVnfGltYWdlcy9oMTQvaGUzLzk4OTA1MjA3Mjc1ODIuanBnfGQ4NmJiZWZlNzMwZTFiNTY4ZGFhOWY2ZWMzYTU3MjIzYjY0MTE1MDc2YjNmMDg3ZjI1MmJjNjJhZTA2MzJiZmM",
+      "id": 1012
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Red",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "hthttps://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177756-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3NzA4MnxpbWFnZS9qcGVnfGltYWdlcy9oODUvaDNlLzk4OTA1MDEzOTQ0NjIuanBnfDc4ZjdkYzExNjA2NTE3NzMyMTNkMGUxYmQwNGI5NDg0MTYxMmRjZjI1ZGNlMzc2ODRkNjc3MzkwNjJlMjcwNTM",
+      "id": 1013
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Purple",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177758-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NjUzNHxpbWFnZS9qcGVnfGltYWdlcy9oYWUvaGY3Lzk4OTA1MDkyNTg3ODIuanBnfGI0N2FkZjIxNDU3Mzc0OTVkZjcyMGFjZTVlMWNmYTRkOGU4MmRlNDUyOWRhZTdiNTRmYzBkZjY1MTYyNDQwNjI",
+      "id": 1014
+    },
+    {
+      "name": "Apple iPhone 14 256 GB, Starlight",
+      "price": "89900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177755-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzA1NXxpbWFnZS9qcGVnfGltYWdlcy9oMGYvaGJmLzk4OTA1MDA0MTE0MjIuanBnfGIyZDc4YjQwZTdlMzExNjY3NWVhZDEyMzkwN2EyODI3Y2VjMzg0ZjhkZmIxNmUyZTliNTY4Njc3M2VhYWYxNjM",
+      "id": 1015
+    },
+    {
+      "name": "Apple iPhone 14 Plus 256 GB, Purple",
+      "price": "99900",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177773-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NjcyOXxpbWFnZS9qcGVnfGltYWdlcy9oNzEvaDllLzk4OTA1NjQwNDY4NzguanBnfDJjYWFhY2E4MTZjMmQzN2EwZTU3YWRlZGQ2NmVkNWE0MWJmMTkyNDViYWZiYTkxOGQzOTVmNjI2NWNmZjRlOGM",
+      "id": 1016
+    }
+  ],
+  "tv": [],
+  "watches": [
+    {
+      "name": "pTron Pulsefit F21 Plus Smart Watch with 4.31 cm (1.7 Inch) Full Touch Color Display, Black",
+      "price": "999",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/pTron-140318176-Smart-Watch-492850976-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMTMzODB8aW1hZ2UvanBlZ3xpbWFnZXMvaDNjL2g2ZC85ODk1NTkwMTAxMDIyLmpwZ3w2YjkwZjgyZDRlNWUxZTExYThlMWUxZTVhNWZkOWU4ODUzMzczZTVkYjhjNWY2NDdjNmJjN2I1MjhkMGM5YTA2",
+      "id": 1
+    },
+    {
+      "name": "Hammer Pulse Ace Smart Watch with Bluetooth Calling Function, Black",
+      "price": "1299",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Hammer-PULSE-ACE-Smart-Watch-Accessories-493177731-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w5NTQwNnxpbWFnZS9qcGVnfGltYWdlcy9oYmMvaGZmLzk5MDY5MTM1MDk0MDYuanBnfGViNzJhN2VlY2U2YzRhZGJjYThjNzllMmRmZjIxNzcxMzYxY2U3NWMwNDQ3N2I1MGNjNGVhOTQyOWMyNDQ2NmE",
+      "id": 2
+    },
+    {
+      "name": "pTron Pulsefit P261 Bluetooth Calling Smartwatch with IP68 Waterproof, Black",
+      "price": "1299",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/pTron-PULSEFIT-P261-Smart-Watch-493177969-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3OTQ5MHxpbWFnZS9qcGVnfGltYWdlcy9oZTMvaGFkLzk4OTQ2NzAwNDExMTguanBnfGUzOTc5M2Q0M2JhZDY4ZDA2ZWZmYTVmZjA1NTIzYjZmMmNjOGY5NjMyZjM5YjNhNzQ1MDdmYThhYzU4ZjdjNjE",
+      "id": 3
+    },
+    {
+      "name": "Ambrane Wise Spirit Smart Watch with Bluetooth Calling, Black",
+      "price": "1699",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Ambrane-Wise-Spirit-Smart-watch-492850573-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w5MjMyMnxpbWFnZS9qcGVnfGltYWdlcy9oMDkvaGE1Lzk4NDIwOTc1ODYyMDYuanBnfGYxZThhZTQ3N2I4ZDk5NjRlZWM4NDkzNDM4NTBjMjUyNzQwYmYxZDBlMjc4OWUzZTQ4MzllNjgxNGJiZjEwYjA",
+      "id": 4
+    },
+    {
+      "name": "Fire-Boltt Ninja Smart Watch with Touch to Wake Feature, IP67 Water Resistant (Beige)",
+      "price": "1699",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Fire-Boltt-BSW007-Smart-Watch-492850761-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MDI5NXxpbWFnZS9qcGVnfGltYWdlcy9oZWMvaGNlLzk4NTk3OTg1MzIxMjYuanBnfDE0YzZjYWQ1MTI0OGE5NTM5NjE4NzdjNjJlMGFiMmRkY2FlOTVkODFiNGRlYmZmZWI4MmFjZTY5YTdiNjkzYjM",
+      "id": 5
+    },
+    {
+      "name": "Fire-Boltt Ninja Smart Watch with Touch to Wake Feature, IP67 Water Resistant (Black)",
+      "price": "1699",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Fire-Boltt-BSW007-Smart-Watch-492850759-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MzQ0MHxpbWFnZS9qcGVnfGltYWdlcy9oNTMvaDEzLzk4NTk3ODYwODAyODYuanBnfDQ5ZTQwNjg5YzFhM2E3ZDJlNWNlOTJjNDQ3ODBmOGExYTI5MTYyYjAwYjQwZWU1MWJhNWU2YmRmNmFmY2I0NGI",
+      "id": 6
+    },
+    {
+      "name": "Fire-Boltt Ninja Smart Watch with Touch to Wake Feature, IP67 Water Resistant (Grey)",
+      "price": "1699",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Fire-Boltt-BSW007-Smart-Watch-492850760-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1MDIyNnxpbWFnZS9qcGVnfGltYWdlcy9oMGUvaDM4Lzk4NTk3OTg4NTk4MDYuanBnfDQ0NGYzZTJhOTdlNmQzY2U4YWI1MmY2Y2M1ZTY4ODg0MWNlN2IzYTRlZjY3NTRiODQ4YWY3YjVkMjY0OTUwY2E",
+      "id": 7
+    },
+    {
+      "name": "Hammer Pulse 3.0 Bluetooth Calling Smartwatch with Honeycomb Design (Black)",
+      "price": "1799",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Hammer-PULSE-3-0-Smart-Watch-492849894-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3NTc2NnxpbWFnZS9qcGVnfGltYWdlcy9oOTAvaGVhLzk4MTQ3MTk3MjU1OTguanBnfDIwNmE0ZTYxZWZjODMwMDUxZTBiNWE0ZTM4YzFhODIzNDBkM2FlNmUzZTliNDIyY2I2ZjI5YWMxOGMzYzkwZmE",
+      "id": 8
+    },
+    {
+      "name": "Noise ColorFit Caliber Go Smart Watch with 4.29 cm (1.69 Inch) Full Touch Color Display, Midnight Blue",
+      "price": "1799",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Noise-COLRFIT-CALIBER-GO-Smart-Watch-493178069-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w4ODEyNXxpbWFnZS9qcGVnfGltYWdlcy9oMTkvaDcwLzk4OTYxMTg2MTYwOTQuanBnfGM0MTgzN2ZkNGQ5YzlhNWVjODE0ODBmYmJhZmI2MmEyNzI4MTVlMTE4ODBlN2U0ZjljYTRhMjNmYmI0Mjg3Zjc",
+      "id": 9
+    },
+    {
+      "name": "Noise ColorFit Caliber Go Smart Watch with 4.29 cm (1.69 Inch) Full Touch Color Display, Rose Pink",
+      "price": "1799",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Noise-COLRFIT-CALIBER-GO-Smart-Watch-493178068-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3ODkyNHxpbWFnZS9qcGVnfGltYWdlcy9oNDkvaGNlLzk4OTYxMTg5NDM3NzQuanBnfGI5ZWI4YjhiNTZiNzdiNjNkNjc0OWFlNzQ4MTQ0NzBiYzkyYjk3N2IwMmI5M2RlNzVlZWFiYWUwYzNkZGM5ODA",
+      "id": 10
+    },
+    {
+      "name": "Noise Colorfit Grande Smart Watch, Jet Black",
+      "price": "1999",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Grande-Smart-Watch-492850519-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MDMwNXxpbWFnZS9qcGVnfGltYWdlcy9oZmIvaDIyLzk4NDMyNjM3OTkzMjYuanBnfDgxNzU4ZTNlMTliMWI2ZTdlMTFiMWU3ODdiZDkwNmExYWZjOTYwYTlhZjk5MGRhODhmODAyZmE1ZDA4NjhhNjE",
+      "id": 11
+    },
+    {
+      "name": "Noise Colorfit Grande Smart Watch, Electric Blue",
+      "price": "1999",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Grande-Smart-Watch-492850520-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MzYxMnxpbWFnZS9qcGVnfGltYWdlcy9oYTkvaDhiLzk4NDMyNjgzODY4NDYuanBnfGViMTNmNTk3YmQwYjViZTFkYzRiMDc3ZGVlZTRmZmE1MGY0OWEyNThlNzUzZmM1NWMwNjJkNDlmMDRjNDM2ZWU",
+      "id": 12
+    },
+    {
+      "name": "Noise Colorfit Grande Smart Watch, Electric Champagne Grey",
+      "price": "1999",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Grande-Smart-Watch-492850521-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MDY1NXxpbWFnZS9qcGVnfGltYWdlcy9oODYvaGQxLzk4NDMyNjg3MTQ1MjYuanBnfGQyY2NiY2EwM2MyMjBlZDQyMWYxYmRiYTA4OTExZWY5MjEwYzczNGYyZTA2MzUwMGVmMmMxNTUwNzFkZWJlYjQ",
+      "id": 13
+    },
+    {
+      "name": "Fire-Boltt Mercury Smart Watch with IP67 Water Resistant, Smart Notifications (Black)",
+      "price": "1999",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "image": "https://www.reliancedigital.in/medias/Fire-Boltt-BSW006-Smart-Watch-492850752-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w4MTcyOXxpbWFnZS9qcGVnfGltYWdlcy9oMWYvaGZhLzk4NTk3Njk2MzA3NTAuanBnfDNhMjJiYzhhOWRjZDg1MzhlZGZiOWY0MTk0ZjU5OTIyNmQ3YTA2ZWEyMWU2YWRhMDEyOTVhYWI5YTY5ZWJiYzI",
+      "id": 14
+    },
+    {
+      "name": "Fire-Boltt Hurricane Smart Watch with Smart Notifications and IP67 Water Resistant (Black)",
+      "price": "1999",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Fire-Boltt-BSW034-Smart-Watch-492850687-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMDQ1ODh8aW1hZ2UvanBlZ3xpbWFnZXMvaGY1L2g1Mi85ODU5NzQzMDg4NjcwLmpwZ3w3MDgwNWY1NTM5NDk4MTQ3MWQzNjgzMzEwYzI0MGM0ZGI2ZTFhYjgxNWJmMWNiZGM1OGM5MjBlOWM2ZDZhYjIy",
+      "id": 15
+    },
+    {
+      "name": "boAt Wave Play Smart Watch with 4.29 cm (1.69 Inch) HD AMOLED Display, Active Black",
+      "price": "1999",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/boAt-Wave-Play-Smart-Watch-493178418-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzk5MDJ8aW1hZ2UvanBlZ3xpbWFnZXMvaDgwL2gyZS85OTE1NzE2NTk5ODM4LmpwZ3xiMTk1Y2FkOGViZmQ5MjEwYjMwNmFiNTdmYmEyNTlmN2Q5ZjRhMTRiYjFkZTkyYmE4ZTNiNzk5YzU1ZWE2OGU5",
+      "id": 16
+    },
+    {
+      "name": "Inbase Urban Lite X Smart Watch with Multiple Health Features, Black",
+      "price": "2099",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/In-Base-IB-1792-Smart-Watch-492849319-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2ODUxOHxpbWFnZS9qcGVnfGltYWdlcy9oODEvaDlmLzk4Mzc5MTM5MzE4MDYuanBnfDM2OTQxM2MyNWI3ODcwYzYzNzQyYmM3MGQyYmM4NWE2NzkyMzNiYWI5OGUxMWUxMGUxNDk4OTE5NWFjNThlZTE",
+      "id": 17
+    },
+    {
+      "name": "Inbase Urban Lite X Smart Watch with Multiple Health Features, Pink",
+      "price": "2099",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/In-Base-IB-1796-Smart-Watch-492849323-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3MDM3OHxpbWFnZS9qcGVnfGltYWdlcy9oMzkvaGU2Lzk4Mzc5MTUyNDI1MjYuanBnfDgzNmQ3YmEzMTBlOTAxMjNjNDU3NzU4YWEyYTUxYjVjMGZmNTllYjBiMWNlYWMxYmNkZGE0NGU3OGJkMThkNTc",
+      "id": 18
+    },
+    {
+      "name": "Inbase Urban Lite X Smart Watch with Multiple Health Features, Green",
+      "price": "2099",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/In-Base-IB-1793-Smart-Watch-492849320-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzE0OHxpbWFnZS9qcGVnfGltYWdlcy9oMjkvaGY3Lzk4Mzc5MDk5OTk2NDYuanBnfDE1YzI5MjY0YjI5ZDc5OTdiNjRmZTdlOGU4Nzc5ODIwNjg2NjJlYTU3NmYzZmFhYzMxNWVmNzU2MTA0YjI3NTk",
+      "id": 19
+    },
+    {
+      "name": "Inbase Urban Lite X Smart Watch with Multiple Health Features, Red",
+      "price": "2099",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/In-Base-IB-1794-Smart-Watch-492849321-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3OTY0NnxpbWFnZS9qcGVnfGltYWdlcy9oMjAvaDZiLzk4Mzc5MTA2NTUwMDYuanBnfGJjODIyMTZhY2U3MDdmZjZmOGM0YjJiMjcwNDhjYjM2ZWVkOTQ5MzcyMGNkOGVkZDk3MWNhZDY5NDYzMjFkMzc",
+      "id": 20
+    },
+    {
+      "name": "Noise Colorfit Beat Smart Watch with 8 Sports Mode, Mist Grey",
+      "price": "2099",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Noise-ColorFit-Beat-Smart-Watches-492574672-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNDQ2MDd8aW1hZ2UvanBlZ3xpbWFnZXMvaGMyL2hkNy85Nzc1OTI0OTY5NTAyLmpwZ3xlMzA1Yzk1ZDg2ZGIwYjgzZmU4YTk1NjQ3MDZlY2UxM2YzM2Q1MTdlYTE3MzZhZTAwNzNiNjM3ZmM2YzE1MDhi",
+      "id": 21
+    },
+    {
+      "name": "Noise Colorfit Beat Smart Watch with 8 Sports Mode, Teal Green",
+      "price": "2199",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "4.31 cm (1.7 Inch) Full Touch Color Display 10-12 Days Runtime Up to 20 days Battery Standby Life Compatible with Android (4.4 plus) & iOS (9.0 plus)",
+      "image": "https://www.reliancedigital.in/medias/Noise-ColorFit-Beat-Smart-Watches-492574674-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNzA4ODl8aW1hZ2UvanBlZ3xpbWFnZXMvaGUxL2g2Yy85Nzc1OTI0NjQxODIyLmpwZ3xiN2NkZWIwMTQ5ZDJiYWI0MGY3YTRhYjQ0NzVjNDI1NGVjNzU0MGMwYWQwYzVlNjJkZmNhM2IxMTNjZGYwYjAz",
+      "id": 22
+    }
+  ],
+  "other": [
+    {
+      "name": "Philips BHH880 Hair Straightening Brush (Black)",
+      "price": "3499",
+      "warranty": "2 Years manufacturer warranty",
+      "features": "ThermoProtect technology, Tourmaline ceramic coating Triple bristle design, Large paddle-shaped brush 1.8 m Cord length, 2 temperature settings Auto shut-off after 60 min, PTC Heater type",
+      "image": "https://www.reliancedigital.in/medias/Philips-BHH880-Hair-Dryers-and-Stylers-491539222-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODUzOTZ8aW1hZ2UvanBlZ3xpbWFnZXMvaGMzL2hmNy85MzM0NDE3OTQ4NzAyLmpwZ3xjZjVjNzhlODBhZGUwM2RiOWE4MTZmNzc0ZGVkY2JlZDk4MzhmYWIwYzhjZDRhMjI2ZjU1NWYwZjU2MmRkODg1",
+      "id": 1
+    },
+    {
+      "name": "BPL BFCB-0602BR 600 mm Basic Ceiling Fan, Brown",
+      "price": "1140",
+      "warranty": "2 Years manufacturer warranty",
+      "features": "ThermoProtect technology, Tourmaline ceramic coating Triple bristle design, Large paddle-shaped brush 1.8 m Cord length, 2 temperature settings Auto shut-off after 60 min, PTC Heater type",
+      "image": "https://www.reliancedigital.in/medias/BPL-BFCB-0602BR-Ceiling-Fan-491902865-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2OTE5NnxpbWFnZS9qcGVnfGltYWdlcy9oNDYvaDU0Lzk2MjMxNzU1OTQwMTQuanBnfDY1ZmQ4N2ZjMTg4NmU2ZmJjZWE1NGZhMDcyYjQyZjgyYWY1NTg4NzgxYTdjMWFmZDdlM2EzYjdjZTBkZTMzNDE",
+      "id": 2
+    },
+    {
+      "name": "Bajaj Majesty Slim 2100-Watt Induction Cooktop with 9 Auto Cook Menus (Black)",
+      "price": "3799",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "2100 Watts Power Pre-set Timer 8 Auto Cook Menus Touch Control",
+      "image": "https://www.reliancedigital.in/medias/Bajaj-740076-INDUCTIONCOOKTOPS-492573223-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMjEwODF8aW1hZ2UvanBlZ3xpbWFnZXMvaGZlL2g5Zi85NzM0ODYzODgwMjIyLmpwZ3w4NWI5MTZjN2QwZGZiZDNiNGFiOTViOTdjMjZiOTFlMjQxZThmNGEzZDBlMmQ4NmRjYmFlYmYyMTQ1OTY4OWEw",
+      "id": 3
+    },
+    {
+      "name": "Vega T3 VHTH-19 Beard Hair Trimmer",
+      "price": "1025",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "Stainless Steel Blades with Smooth Rounded Tips Adjustable Comb 0.4 mm to 10 mm Skin Guard Travel Lock",
+      "image": "https://www.reliancedigital.in/medias/Vega-VHTH19-Epilators-491902978-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMTM4NzB8aW1hZ2UvanBlZ3xpbWFnZXMvaDBhL2hhZC85NDEzNTAwMTc0MzY2LmpwZ3xhYjQ0YmVlMTAyMmVjMDMyYzg0YmNkYzljNTRiNjQ4MWY1OTY1MWYwYTIyNjYyYTUyZTFmNzVhNDUwOWRhN2Ux",
+      "id": 4
+    },
+    {
+      "name": "Phillips Avance Collection HL7707/00 750-Watt Mixer Grinder with 4 Jars, PowerChop technology (Black)",
+      "price": "9199",
+      "warranty": "5 Year manufacturer warranty",
+      "features": "Gear drive technology supports low speed food preparation Uncompromised grinding results of tough ingredients Powerful 750W motor supports continuous grinding Speed settings and pulse for maximum control",
+      "image": "https://www.reliancedigital.in/medias/Philips-HL7707-00-Mixer-Grinder-491472892-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMDkwNDl8aW1hZ2UvanBlZ3xpbWFnZXMvaDE3L2hjZi85MjkyNjg3MzEwODc4LmpwZ3xmM2UzYWJiNjg4ZThhZTFiNjk3NjY3NjY4ZDUyMTk4MTdkMGEyNmU2ZjRmMzg5MTllODE3ZGY5NWRlY2M1ZWNk",
+      "id": 5
+    },
+    {
+      "name": "Philips EasyTouch Plus GC523/60 Garment Steamer",
+      "price": "7999",
+      "warranty": "2 Years manufacturer warranty",
+      "features": "Adjustable double pole 1.6 L detachable tank 5 steam settings",
+      "image": "https://www.reliancedigital.in/medias/Philips-GC523-60-Specialty-Appliances-491433174-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNjU5NXxpbWFnZS9qcGVnfGltYWdlcy9oOTkvaGNjLzkyMTcwNjM2NDkzMTAuanBnfDJjYjUxYTA3NjMyNjE5ZGZkNjNkYjZlZmU0ZGU3M2VkNmNhOTQ0YTYxNDUxZmE0MjY0M2Q1NmVmOTRmZTdkNDA",
+      "id": 6
+    },
+    {
+      "name": "Greenchef 450 ml Handy Vegetable Mini Chopper with 3 Stainless Steel Blade",
+      "price": "199",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "Elegant and Efficient tool Handy support in kitchen Minces and Chops vegetables and nuts inti fine pieces Sleek and compact looks",
+      "image": "https://www.reliancedigital.in/medias/Greenchef-Handy-Chopper-Mini-Chopper-Slicers-493620561-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMTAzMDN8aW1hZ2UvanBlZ3xpbWFnZXMvaDUyL2g4Ni85ODk0NzI5MDg5MDU0LmpwZ3w1ODg4ODY0ODlhN2Y0YmE2MDQ3NjVmMTg4YjVmMWQ4ZTg5NDBjM2UxODg5MDgyMzMyNzM4MThkNDQ5MmQ3MDY3",
+      "id": 7
+    },
+    {
+      "name": "Pigeon Mini Eco Handy Chopper with 3 Blades",
+      "price": "249",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "Three Stainless Steel Chopping Blades Simple And Unique Design The Food Grade BPA Plastic Eco-friendly Design",
+      "image": "https://www.reliancedigital.in/medias/PIGEON-Mini-Eco-Speciality-Appliances-492664295-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzk3MTJ8aW1hZ2UvanBlZ3xpbWFnZXMvaGFkL2g2YS85NzU0MjI3MDgxMjQ2LmpwZ3wyYWMyMTcwNWVlNjE5OTEyYzlhM2RjZTIwOWQ1YjdjYzA0NTcwOTQ1ODkzMTExZTllNjA2ZGZlOTM1ZmU5YmNm",
+      "id": 8
+    },
+    {
+      "name": "Candes 1000 Watts Shock-proof Immersion Water Heater Rod, Neo",
+      "price": "349",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "1000W Immersion Rod  Outer Material: Stainless Steel Easily accommodable in storing places or cabinets",
+      "image": "https://www.reliancedigital.in/medias/Candes-Neo-Water-Heater-493620545-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MDUxNnxpbWFnZS9qcGVnfGltYWdlcy9oMWUvaDQxLzk4Nzk3MDQzMzg0NjIuanBnfGFmZjRhNzI2ZWRiMzE3NmMwOWUwN2ZhNjQ2ZDE0MGExMWVkNmZiMzhiOTdkZWYyZWE0ODc1NWM1MDliYzkzZGQ",
+      "id": 9
+    },
+    {
+      "name": "Lifelong LLDI09 1100 Watts Dry Iron, Blue and White",
+      "price": "399",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "1100 Watts Power DU Point Coated Plate Thermostatic Control 180-degree Swivel Cord",
+      "image": "https://www.reliancedigital.in/medias/Lifelong-LLDI09-Irons-492664307-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNzU3MTl8aW1hZ2UvanBlZ3xpbWFnZXMvaDNmL2hlYy85ODUzNjc4Mzg3MjMwLmpwZ3wzYmRkYmIzYjg2MzkzYmQ2NGVhZjg4ZTRhOGMwZDI5YzM2ZTRjOWMwNzYwMDgwNmRmYjM0Mjg2YTkwNDQ4YTA3",
+      "id": 10
+    },
+    {
+      "name": "Bajaj 3 litres Instant Water Heater with Copper Heating Element , Majesty",
+      "price": "3149",
+      "warranty": "2 Years manufacturer warranty",
+      "features": "Pressure withstanding capacity of 8 bars Fire Retardant Cable for Additional Safety Power On and Heating Neon Indicator Thermoplastic Outer Body Prevents Rusting and Corrosion",
+      "image": "https://www.reliancedigital.in/medias/Bajaj-3KW-3L-Geyser-490024627-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w5ODYyNnxpbWFnZS9qcGVnfGltYWdlcy9oNTAvaGU5LzkxNzAyNjM5NjU3MjYuanBnfDg5MWVlMzA0N2E2ODFhM2IzN2ZhNTU3MzYwODc1NjdhZTM1YTNhN2FhNTgyZDEyNTQwMGRmN2JkZWZkNzdiMWQ",
+      "id": 11
+    },
+    {
+      "name": "Candes Acura 1200 mm High Speed BLDC Ceiling Fan with Smart Remote, Brown",
+      "price": "3199",
+      "warranty": "2 Years manufacturer warranty",
+      "features": "BLDC Fan with Smart Remote Motor Double Ball Bearings Suitable for Kitchen / Veranda / Balcony / Small Room Number of Speed Setting: 4/5",
+      "image": "https://www.reliancedigital.in/medias/CANDESAR-Acura-Fans-492664655-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzQxNTN8aW1hZ2UvanBlZ3xpbWFnZXMvaGNlL2g5Ni85Nzg3NDE3OTE5NTE4LmpwZ3w1OTFhOWJlNTk4YmE4NTQ1MzM3Yzc0OWZjNGRlNDk2ZTE0NzE4YWZiMzA5ZDY5ZmM3MmQ5NmRhZWVmZTkzNjlk",
+      "id": 12
+    },
+    {
+      "name": "Greenchef Duster Glass Top Cooktop Hob with 4 Burners",
+      "price": "3999",
+      "warranty": "2 Years manufacturer warranty",
+      "features": "Sleek glass top and a steel body 4 brass burners Scratch Resistant Toughened Glass",
+      "image": "https://www.reliancedigital.in/medias/Greenchef-Duster-Cooktops-Hobs-493620558-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMTY2Nzl8aW1hZ2UvanBlZ3xpbWFnZXMvaDlhL2g4OC85ODk0OTI5MTA0OTI2LmpwZ3w2Y2NiMmJjNWI0ODJhZTlhYTNjMWE3OTkwNWQzOWZjZDFlZmVlZDgxMWVkMjFjNzk0NDNmYzhlYmFjZWY3MjAw",
+      "id": 13
+    },
+    {
+      "name": "Aquaguard 6.2 litres UV + UF + AC Water Purifier, Jazz with 5 Stages of Purification and Active Copper Technology",
+      "price": "13898",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "5 Stages of Purification Active Copper Technology UV e-Boiling and Ultra-Filteration 6.2 litres Storage Capacity",
+      "image": "https://www.reliancedigital.in/medias/Aquaguard-Jazz-Water-Purifiers-492284155-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3MzU2OXxpbWFnZS9qcGVnfGltYWdlcy9oZWQvaGRkLzk1ODU4MTQ2MzQ1MjYuanBnfDMzMGJhNDM5Y2I2ZjY2MGUzNzUxNzgwMTdlMjZjNTkzMDU4MThiMGY1MTViNDFkYmMyMzA4NTlhNjg2ZTNlZTE",
+      "id": 14
+    },
+    {
+      "name": "Eufy Robotic Robovac 11s Vacuum Cleaner with 3-point cleaning system, Boost IQ technology, Triple-Filter System (Black)",
+      "price": "14999",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "100 Percent Hands-Free Cleaning Increased Suction Power to 1300Pa Intelligent Boost IQ Technology Cleans for up to 100 Minutes, Large 0.6L dust box",
+      "image": "https://www.reliancedigital.in/medias/Eufy-Robovac-11s-Vacuum-Cleaners-491891985-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMjU1ODZ8aW1hZ2UvanBlZ3xpbWFnZXMvaGZhL2g3NS85MzYwNjIzOTI3MzI2LmpwZ3w5NzYzNGUxZDEyZGM4Y2VhMDA5NWQyZmRjZGFjNjE4NTcxYTI0N2RlYjVjZTM5ZGQ0YzNjMjZkOWMyOWU1MjA4",
+      "id": 15
+    },
+    {
+      "name": "Philips HP8143/00 1000 Watt Hair Dryer (Pink)",
+      "price": "899",
+      "warranty": "2 Years manufacturer warranty",
+      "features": "Careful drying with 2 flexible heat settings Easy storage hook for convenient storage Compact design for easy handling",
+      "image": "https://www.reliancedigital.in/medias/Philips-HP8143-00-Hair-Dryers-and-Stylers-491350725-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNTY2NDR8aW1hZ2UvanBlZ3xpbWFnZXMvaDhmL2hiZi84OTIxODIxOTM3Njk0LmpwZ3xiYTgwMDU1ZTY5MmM0YWMwMjAxNjQ2YmZjNTY0ZDBmMWJjZWUwNjFhYzc4MmJkNjNlMDE5NmI2Yjg1ZWFkNDRj",
+      "id": 16
+    },
+    {
+      "name": "Lifelong LLHM01 150 Watts Regalia Hand Mixer for Mixing Cake Batters and Atta (Black)",
+      "price": "949",
+      "warranty": "1 Year manufacturer warranty",
+      "features": "Equipped with 300 Watts of powers Use the dough hook to knead atta for chapatis Comes with 5 speed options Appliance is a breeze to use with a single button for eject and speed functions",
+      "image": "https://www.reliancedigital.in/medias/LIFELONG-REGALIA-LLHM01-HAND-MIXER-492664305-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxNjcwODN8aW1hZ2UvanBlZ3xpbWFnZXMvaDFjL2g3Ni85ODUzNjc0NDU1MDcwLmpwZ3wxZDI5ZWMxYzc1MTdlNGZlZTNiYTVlNTczNjE5ODM0MTY3NjkxMzE1ZjljMTU1NTdkZWMwM2YzNGViMWRlMzcy",
+      "id": 17
+    },
+    {
+      "name": "Wahl Beard Rechargeable Trimmer with Self Sharpening Blades and Travel Lock, Black",
+      "price": "999",
+      "warranty": "2 Years manufacturer warranty",
+      "features": "Precision Blades: Precision ground blades stay sharper for longer, for long lasting durability and performance 6-Position Guide Comb: 1 guide comb that locks into 6 positions over the blade, giving you length from 2mm - 12mm! Up to 60-Minutes Run Time: Gives you up to 60-minutes of run time Ergonomic Design: Ergonomic design that is lightweight and easy to hold, giving you flexibility when trimming",
+      "image": "https://www.reliancedigital.in/medias/WAHL-09916-2724-TRIMMER-492573317-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNjIyMnxpbWFnZS9qcGVnfGltYWdlcy9oZWYvaGIzLzk4NjU1NjY3ODE0NzAuanBnfDhlZGQ2MWVjMTI3NjZjMGM0M2Q1ZmQyNGI5M2ZkNWRiYTU0ZjZmYTgzNTk0MDE1ZTI4NTU0Y2FhYzFiNTllYjc",
+      "id": 18
     }
   ],
   "User": [
