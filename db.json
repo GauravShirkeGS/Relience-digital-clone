@@ -259,7 +259,129 @@
       "id": 1016
     }
   ],
-  "tv": [],
+  "tv": [
+    {
+      "id": 1,
+      "price": 20900,
+      "title": "Hisense 108 cm (43 inch) 2Yr Warranty 4K Ultra HD Smart Certified Android LED TV 43A6GE (Black) with Dolby Vision and ATMOS",
+      "imageURL": "https://www.reliancedigital.in/medias/HISENSE-43A6GE-Smart-LED-492338735-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMjcyNTF8aW1hZ2UvanBlZ3xpbWFnZXMvaGY0L2g3Zi85Nzc4ODQyMzcwMDc4LmpwZ3wxODBkYzFjYjlmNDI0YTdhYjY5MmU4YWNkOGIzM2M0NmEyOGQ1MGRjNzJhOGIzMWVkZjVhMmE4MWYzM2RkNGU3"
+    },
+    {
+      "id": 2,
+      "price": 47900,
+      "title": "Hisense 139 cm (55 inch) 2Yr Warranty 4K Ultra HD Smart Certified Android QLED TV 55U6G (Metal Gray)",
+      "imageURL": "https://www.reliancedigital.in/medias/HISENSE-55U6G-Smart-LED-492338741-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1NTA3Mjh8aW1hZ2UvanBlZ3xpbWFnZXMvaGE4L2hhZC85Nzc5MjMyNjM2OTU4LmpwZ3wxNDhjZDU4NTdhYmFlMTUzYzQzNjhjNWE3YzU0ZTEzMTM3Y2Q2NGE4NTk3NWRkZmQxNTk3YmU3ODc4NGQyYjRh"
+    },
+    {
+      "id": 3,
+      "price": 19900,
+      "title": "TCL 109 cm (43 inch) 2Yr Warranty Full HD Android Smart TV with Dolby Surround Sound Technology, 43S5200",
+      "imageURL": "https://www.reliancedigital.in/medias/TCL-43S5200-Televisions-492403798-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNjA5Njl8aW1hZ2UvanBlZ3xpbWFnZXMvaDBiL2g2Zi85ODMyNzExNTUzMDU0LmpwZ3xlODg5NTM2NzUzZTZmMDU0YjMxZGM4YmUxODlmZTAxZmFhY2MxMTlhOGJlNjk4NDUxYjMwYTZkMDY4MDcwZWE4"
+    },
+    {
+      "id": 4,
+      "price": 21900,
+      "title": "Toshiba 108 cm (43 inch) 4K Ultra HD Vidaa OS Smart LED TV with Dolby Vision and ATMOS, 43U5050",
+      "imageURL": "https://www.reliancedigital.in/medias/Toshiba-43U5050-Televisions-491893300-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3MTM4MTF8aW1hZ2UvcG5nfGltYWdlcy9oODYvaDI4Lzk4MjAyNDg0NDA4NjIucG5nfGJkN2ZmYmQxYjNmNzY5ZjJmNjc5ZDJkNmM2ZDMyM2ViMGIzN2FjMTJlNDczMTA2ZDQ0NDBkZWRmMWM3MWQ2Y2M"
+    },
+    {
+      "id": 5,
+      "price": 24900,
+      "title": "BPL 109.22 cm (43 inch) Full HD Android Smart TV with Dolby Surround Sound Technology, 43F-A4300",
+      "imageURL": "https://www.reliancedigital.in/medias/BPL-43F-A4300-Televisions-491893307-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODEzMjZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDQyL2gxYS85NzMwMjcxMjgxMTgyLmpwZ3w1ZTkzYmZjNWMwNjg4YjA1MzgzMWZjNzg0MjlhNGQ3NDllYTlkNDExZmM0ZmEwNjA1Y2JlYTY2MTg3NTRlZGY4"
+    },
+    {
+      "id": 6,
+      "price": 21900,
+      "title": "OnePlus 100 cm (40 inch) Full HD LED Smart TV, Y Series 40Y1",
+      "imageURL": "https://www.reliancedigital.in/medias/OnePlus-40Y1-Television-492338486-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MDU4Mzh8aW1hZ2UvanBlZ3xpbWFnZXMvaGExL2g3NC85NTU3NDQyODg3NzEwLmpwZ3w1MDNjY2ZlOTE2NmUzNzlmZjcwMTJmM2Q5Mjg4OGY1NzM2ZDFlN2UyZDU3YTBkYWFkYjg0ZDk5OTQxNzVjZDc5"
+    },
+    {
+      "id": 7,
+      "price": 35900,
+      "title": "BPL 139.7 cm (55 inch) Ultra HD (4K) LED Android Smart TV, 55U-A4310",
+      "imageURL": "https://www.reliancedigital.in/medias/BPL-55U-A4310-Television-491893309-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNjY2NjJ8aW1hZ2UvanBlZ3xpbWFnZXMvaDI4L2hjNy85NzMwODgxNDIxMzQyLmpwZ3w0ZTg3YzdkOTBiYWVmNmM1YjM0ZWZhMWMzMjMxYjAwY2Q5MzM1ZjY2ZjYyYzE3YTc0M2Y3OWUxNzE4YmZhYTFm"
+    },
+    {
+      "id": 8,
+      "price": 54900,
+      "title": "BPL 165.1 cm (65 inch) Ultra HD (4K) LED Android Smart TV, 65U-A4310",
+      "imageURL": "https://www.reliancedigital.in/medias/BPL-65U-A4310-Televisions-491893310-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNjY2NjJ8aW1hZ2UvanBlZ3xpbWFnZXMvaDRhL2hlMy85NzMwOTQzOTA5OTE4LmpwZ3xjYzQ2Y2IwNTY2NDgxMmYwMjEzZDUzZTAxMDU5ODlkMjVmZjI5M2FlYjE0MDdiZjliYWY5OWE4NDk2Y2EyOTI3"
+    },
+    {
+      "id": 9,
+      "price": 20900,
+      "title": "AKAI 108 cm (43 inch) Full HD LED Smart TV, AKLT43S-DFS6T",
+      "imageURL": "https://www.reliancedigital.in/medias/AKAI-A458-FHD-Smart-Telivisions-492338516-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzQ4Mjh8aW1hZ2UvanBlZ3xpbWFnZXMvaGExL2g1Yy85NjExMjU0MDcxMzI2LmpwZ3w5MDFkODkyZTViMWNlOWUwMTU2ZjI3OWFlYmQxNzdmMWJkYWY5YTA3MTY2Mzc4MTI4OTQ0YjBkNDQ2MWI1ZDFj"
+    },
+    {
+      "id": 10,
+      "price": 36900,
+      "title": "Onida 139 cm (55 inch) Ultra HD LED Smart TV, 55UIF-S",
+      "imageURL": "https://www.reliancedigital.in/medias/Onida-55UIF-S-Television-492579412-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzcxNTZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDFkL2gyZi85ODQ3MzY2ODc3MjE0LmpwZ3w1MTVkOTJmNTQ3ZmU1NWY2ZmZmYWEwNzc4NWU1N2Y5ZjU1NDFmNTc4ZGFhY2ExOWUyMTE5MzFmNWYyYjY0NTU1"
+    },
+    {
+      "id": 11,
+      "price": 20900,
+      "title": "Hisense 108 cm (43 inch) 2Yr Warranty 4K Ultra HD Smart Certified Android LED TV 43A6GE (Black) with Dolby Vision and ATMOS",
+      "imageURL": "https://www.reliancedigital.in/medias/HISENSE-43A6GE-Smart-LED-492338735-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzMjcyNTF8aW1hZ2UvanBlZ3xpbWFnZXMvaGY0L2g3Zi85Nzc4ODQyMzcwMDc4LmpwZ3wxODBkYzFjYjlmNDI0YTdhYjY5MmU4YWNkOGIzM2M0NmEyOGQ1MGRjNzJhOGIzMWVkZjVhMmE4MWYzM2RkNGU3"
+    },
+    {
+      "id": 12,
+      "price": 47900,
+      "title": "Hisense 139 cm (55 inch) 2Yr Warranty 4K Ultra HD Smart Certified Android QLED TV 55U6G (Metal Gray)",
+      "imageURL": "https://www.reliancedigital.in/medias/HISENSE-55U6G-Smart-LED-492338741-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w1NTA3Mjh8aW1hZ2UvanBlZ3xpbWFnZXMvaGE4L2hhZC85Nzc5MjMyNjM2OTU4LmpwZ3wxNDhjZDU4NTdhYmFlMTUzYzQzNjhjNWE3YzU0ZTEzMTM3Y2Q2NGE4NTk3NWRkZmQxNTk3YmU3ODc4NGQyYjRh"
+    },
+    {
+      "id": 13,
+      "price": 19900,
+      "title": "TCL 109 cm (43 inch) 2Yr Warranty Full HD Android Smart TV with Dolby Surround Sound Technology, 43S5200",
+      "imageURL": "https://www.reliancedigital.in/medias/TCL-43S5200-Televisions-492403798-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNjA5Njl8aW1hZ2UvanBlZ3xpbWFnZXMvaDBiL2g2Zi85ODMyNzExNTUzMDU0LmpwZ3xlODg5NTM2NzUzZTZmMDU0YjMxZGM4YmUxODlmZTAxZmFhY2MxMTlhOGJlNjk4NDUxYjMwYTZkMDY4MDcwZWE4"
+    },
+    {
+      "id": 14,
+      "price": 21900,
+      "title": "Toshiba 108 cm (43 inch) 4K Ultra HD Vidaa OS Smart LED TV with Dolby Vision and ATMOS, 43U5050",
+      "imageURL": "https://www.reliancedigital.in/medias/Toshiba-43U5050-Televisions-491893300-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w3MTM4MTF8aW1hZ2UvcG5nfGltYWdlcy9oODYvaDI4Lzk4MjAyNDg0NDA4NjIucG5nfGJkN2ZmYmQxYjNmNzY5ZjJmNjc5ZDJkNmM2ZDMyM2ViMGIzN2FjMTJlNDczMTA2ZDQ0NDBkZWRmMWM3MWQ2Y2M"
+    },
+    {
+      "id": 15,
+      "price": 24900,
+      "title": "BPL 109.22 cm (43 inch) Full HD Android Smart TV with Dolby Surround Sound Technology, 43F-A4300",
+      "imageURL": "https://www.reliancedigital.in/medias/BPL-43F-A4300-Televisions-491893307-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxODEzMjZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDQyL2gxYS85NzMwMjcxMjgxMTgyLmpwZ3w1ZTkzYmZjNWMwNjg4YjA1MzgzMWZjNzg0MjlhNGQ3NDllYTlkNDExZmM0ZmEwNjA1Y2JlYTY2MTg3NTRlZGY4"
+    },
+    {
+      "id": 16,
+      "price": 21900,
+      "title": "OnePlus 100 cm (40 inch) Full HD LED Smart TV, Y Series 40Y1",
+      "imageURL": "https://www.reliancedigital.in/medias/OnePlus-40Y1-Television-492338486-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2MDU4Mzh8aW1hZ2UvanBlZ3xpbWFnZXMvaGExL2g3NC85NTU3NDQyODg3NzEwLmpwZ3w1MDNjY2ZlOTE2NmUzNzlmZjcwMTJmM2Q5Mjg4OGY1NzM2ZDFlN2UyZDU3YTBkYWFkYjg0ZDk5OTQxNzVjZDc5"
+    },
+    {
+      "id": 17,
+      "price": 35900,
+      "title": "BPL 139.7 cm (55 inch) Ultra HD (4K) LED Android Smart TV, 55U-A4310",
+      "imageURL": "https://www.reliancedigital.in/medias/BPL-55U-A4310-Television-491893309-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNjY2NjJ8aW1hZ2UvanBlZ3xpbWFnZXMvaDI4L2hjNy85NzMwODgxNDIxMzQyLmpwZ3w0ZTg3YzdkOTBiYWVmNmM1YjM0ZWZhMWMzMjMxYjAwY2Q5MzM1ZjY2ZjYyYzE3YTc0M2Y3OWUxNzE4YmZhYTFm"
+    },
+    {
+      "id": 18,
+      "price": 54900,
+      "title": "BPL 165.1 cm (65 inch) Ultra HD (4K) LED Android Smart TV, 65U-A4310",
+      "imageURL": "https://www.reliancedigital.in/medias/BPL-65U-A4310-Televisions-491893310-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyNjY2NjJ8aW1hZ2UvanBlZ3xpbWFnZXMvaDRhL2hlMy85NzMwOTQzOTA5OTE4LmpwZ3xjYzQ2Y2IwNTY2NDgxMmYwMjEzZDUzZTAxMDU5ODlkMjVmZjI5M2FlYjE0MDdiZjliYWY5OWE4NDk2Y2EyOTI3"
+    },
+    {
+      "id": 19,
+      "price": 20900,
+      "title": "AKAI 108 cm (43 inch) Full HD LED Smart TV, AKLT43S-DFS6T",
+      "imageURL": "https://www.reliancedigital.in/medias/AKAI-A458-FHD-Smart-Telivisions-492338516-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMzQ4Mjh8aW1hZ2UvanBlZ3xpbWFnZXMvaGExL2g1Yy85NjExMjU0MDcxMzI2LmpwZ3w5MDFkODkyZTViMWNlOWUwMTU2ZjI3OWFlYmQxNzdmMWJkYWY5YTA3MTY2Mzc4MTI4OTQ0YjBkNDQ2MWI1ZDFj"
+    },
+    {
+      "id": 20,
+      "price": 36900,
+      "title": "Onida 139 cm (55 inch) Ultra HD LED Smart TV, 55UIF-S",
+      "imageURL": "https://www.reliancedigital.in/medias/Onida-55UIF-S-Television-492579412-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzcxNTZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDFkL2gyZi85ODQ3MzY2ODc3MjE0LmpwZ3w1MTVkOTJmNTQ3ZmU1NWY2ZmZmYWEwNzc4NWU1N2Y5ZjU1NDFmNTc4ZGFhY2ExOWUyMTE5MzFmNWYyYjY0NTU1"
+    }
+    
+  ],
   "watches": [
     {
       "name": "pTron Pulsefit F21 Plus Smart Watch with 4.31 cm (1.7 Inch) Full Touch Color Display, Black",
@@ -591,7 +713,13 @@
       "postId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "showcarddetails": [
+    {
+      "id": 20,
+      "price": 36900,
+      "title": "Onida 139 cm (55 inch) Ultra HD LED Smart TV, 55UIF-S",
+      "imageURL": "https://www.reliancedigital.in/medias/Onida-55UIF-S-Television-492579412-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w2NzcxNTZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDFkL2gyZi85ODQ3MzY2ODc3MjE0LmpwZ3w1MTVkOTJmNTQ3ZmU1NWY2ZmZmYWEwNzc4NWU1N2Y5ZjU1NDFmNTc4ZGFhY2ExOWUyMTE5MzFmNWYyYjY0NTU1"
+    }
+  ]
+  
 }

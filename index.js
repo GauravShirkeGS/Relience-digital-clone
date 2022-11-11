@@ -22,14 +22,16 @@ const Slideshow=()=>{
     },3000);
 }
 Slideshow()
+let  api_key="https://636d5048b567eed48abef381.mockapi.io/data";
 
 
 const get_headphones_data=async()=>{
     
     try{
-        let res=await fetch(`http://localhost:3000/musicProduct`);
+        let res=await fetch(api_key);
         let data=await res.json();
         appendslider(data);
+        console.log(data);
     }
     catch(err){
         console.log(err);
@@ -37,6 +39,19 @@ const get_headphones_data=async()=>{
 }
 get_headphones_data();
 
+const get_tv_data=async()=>{
+    
+    try{
+        let res=await fetch(`https://636d5048b567eed48abef381.mockapi.io/tv`);
+        let data=await res.json();
+        tvappend(data);
+        console.log(data);
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+get_tv_data();
 
 
 const appendslider=(data)=>{
@@ -45,6 +60,10 @@ let div=document.querySelector(".slider");
 div.innerHTML=null;
 data.forEach((el)=>{
     let card=document.createElement("div");
+    card.onclick=()=>{
+        
+        showcarddetails(el);
+    }
     card.style.padding="10px"
     card.setAttribute("id","slidercard");
     
@@ -63,6 +82,9 @@ data.forEach((el)=>{
     offer.style.border="1px solid #91bf93";
     offer.style.borderRadius="20px";
     offer.style.padding="2px";
+    offer.style.fontSize="10px";
+    
+    
     
     card.append(img,name,cost,offer);
     div.append(card);
@@ -80,12 +102,77 @@ prev.addEventListener('click', () => {
 
 next.addEventListener('click', () => {
     slider.scrollLeft +=300
+});
+
+const showcarddetails=async(data)=>{
+let arr=[];
+arr.push(data);    
+    localStorage.setItem("showdetails",JSON.stringify(arr));
+
+    window.location.href="./showcarddetails.html";
+}
+
+
+
+
+
+const tvappend=(data)=>{
+let div=document.querySelector(".slider2");
+
+div.innerHTML=null;
+data.forEach((el)=>{
+    let card=document.createElement("div");
+    card.onclick=()=>{
+        
+        tvshowcarddetails(el);
+    }
+    card.style.padding="10px"
+    card.setAttribute("id","slidercard");
+    
+    let img=document.createElement("img");
+    img.src=el.imageURL;
+    let name=document.createElement("h3");
+    name.innerText=el.title;
+    name.setAttribute("class","sliderDescription");
+    let cost=document.createElement("h4");
+    cost.style.marginTop="5px";
+    cost.style.marginBottom="8px";
+    cost.innerHTML="Offer Price &nbsp;"+el.price;
+    let offer=document.createElement("span");
+    offer.innerText="OFFER AVAILABLE";
+    offer.style.color="#91bf93";
+    offer.style.border="1px solid #91bf93";
+    offer.style.borderRadius="20px";
+    offer.style.padding="2px";
+    offer.style.fontSize="10px";
+    
+    
+    
+    card.append(img,name,cost,offer);
+    div.append(card);
+});
+}
+
+const prev2 = document.querySelector('.prev2')
+const next2 = document.querySelector('.next2')
+const slider2 = document.querySelector('.slider2')
+
+prev2.addEventListener('click', () => {
+    slider2.scrollLeft -=300
+
 })
 
+next2.addEventListener('click', () => {
+    slider2.scrollLeft +=300
+});
 
+const tvshowcarddetails=async(data)=>{
+let arr=[];
+arr.push(data);    
+    localStorage.setItem("showdetails",JSON.stringify(arr));
 
-
-
+    window.location.href="./showcarddetails.html";
+}
 
 
 
