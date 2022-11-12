@@ -91,3 +91,18 @@ div1.append(image);
 container.append(div1,div2);
 
 
+cartbutton.onclick = async () => {
+
+    let res = await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`,{
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers : {
+            "Content-Type": "application/json"
+        }
+    });
+
+
+
+
+    window.location.href= 'cart.html'
+}

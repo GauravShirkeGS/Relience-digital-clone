@@ -18,21 +18,24 @@ cards();
     let card_div = document.getElementById('cards');
     card_div.innerHTML= null;
 
-    data.forEach(({image,name,price}) => {
+    data.forEach((el) => {
 
         let div= document.createElement('div');
         div.setAttribute('class','item');
+        div.onclick = () => {
+             cardfun(el);
+        }
 
         let img= document.createElement('img');
-        img.src = image;
+        img.src = el.image;
 
         let nameof= document.createElement('p');
-        nameof.innerText = name;
+        nameof.innerText = el.name;
         nameof.setAttribute('class','name');
 
 
         let priceof= document.createElement('p');
-        priceof.innerText= price;
+        priceof.innerText= el.price;
         priceof.style.color="black";
 
         let btn= document.createElement('button');
@@ -76,3 +79,14 @@ high.onclick = async () => {
 }
 
 
+const cardfun = (data) => {
+ 
+    
+  
+        let jsdata= JSON.stringify(data)
+        // console.log(jsdata);
+       localStorage.setItem("showdetailes",jsdata);
+       window.location.href= "card_details.html";
+      
+       
+}
