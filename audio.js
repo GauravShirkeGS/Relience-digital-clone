@@ -6,6 +6,14 @@ document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getIt
 if(JSON.parse(localStorage.getItem(`Profile`))==null){
     document.getElementById(`Profile`).textContent=` Login`;
 }
+const GetCartProducts=async()=>{
+    let Response=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`);
+    let Data=await Response.json();
+    if(Data.length!=0){
+        document.getElementById(`Cart-Count`).textContent=Data.length;
+    }
+}
+GetCartProducts()
 const cards = async () => {
 
  let res = await fetch(`https://636d5048b567eed48abef381.mockapi.io/musicProduct`);

@@ -6,6 +6,14 @@ document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getIt
 if(JSON.parse(localStorage.getItem(`Profile`))==null){
     document.getElementById(`Profile`).textContent=` Login`;
 }
+const GetCartProducts=async()=>{
+    let Response=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`);
+    let Data=await Response.json();
+    if(Data.length!=0){
+        document.getElementById(`Cart-Count`).textContent=Data.length;
+    }
+}
+GetCartProducts()
 let Carousel=document.getElementById(`Carousel`);
 const Slideshow=()=>{
     let Images=[`https://www.reliancedigital.in/medias/LG-Friday-Carausel-Banner-09-11-202-D.jpg?context=bWFzdGVyfGltYWdlc3w5OTcwM3xpbWFnZS9qcGVnfGltYWdlcy9oNzAvaDhkLzk5MTkxODcyMjI1NTguanBnfDZjYTc5ZjUwZDY3YzZiNjMwODgwOTMyMzBiZDE4OGVhZGEzMDAyNTUyNWNkYjAyYjljNzM2MTU0OTBiZDM1MjU`,

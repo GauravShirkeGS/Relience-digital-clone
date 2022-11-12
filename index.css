@@ -272,3 +272,48 @@ height: 37px;
   margin: auto;
   margin-top: 50px;
 }
+
+
+#explore{
+  width: 100%;
+  height: 400px;
+ 
+ background: 
+ #f7f7f7;
+}
+#explore h2{
+  text-align: center;
+  padding-top: 10px;
+}
+#dis{
+  width: 95%;
+  height: 75%;
+  margin: auto;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+ 
+}
+#dis div{
+text-align: center;
+display: flex;
+width: 90%;
+height: 90%;
+
+margin: auto;
+}
+#dis div div{
+  display: block;
+}
+#dis div a{
+  text-decoration: none;
+  color: gray;
+  font-size: 23px;
+}
+#dis div a:hover{
+  color: rgb(13, 13, 71);
+}
+.arr{
+  font-size: 30px;
+  font-weight: bold;
+}

@@ -135,7 +135,7 @@ img{
 #Continue-Shopping{
     text-align:center;
 }
-Button{
+#Continue-Shopping-Button{
     padding:15px 30px;
     border:none;
     background-color:#e42529;
@@ -147,4 +147,92 @@ Button{
 a{
     text-decoration: none;
     color: white;
+}
+#Checkout{
+    display:flex;
+    width:95%;
+    gap:20px;
+    margin:auto;
+}
+#Cart-Products{
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+    gap:20px;
+    margin:auto;
+    flex:6;
+}
+#Checkout-Section{
+    flex:3;
+    margin-right:50px;
+}
+#Cart-Products>div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-weight:500;
+    border:1px solid grey;
+}
+.Imagediv{
+    width:20%;
+}
+.Remove{
+    width:100%;
+    border:1px solid grey;
+    color:#1774ef;
+    font-weight:600;
+    width:90%;
+    height:40px;
+    margin-bottom:20px;
+}
+#Checkout-Button{
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    padding:0px 12px;
+    outline:none;
+    cursor:pointer;
+    font-family:inherit;
+    line-height:34px;
+    letter-spacing:inherit;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:13px;
+    border-radius:3px;
+    float:none;
+    color:rgb(255, 255, 255);
+    background-color:rgb(228, 37, 41);
+    border:1px solid rgb(228, 37, 41);
+    width:100%;
+}
+#Price-Details{
+    border:1px solid grey;
+    border-radius:3px;
+    padding:20px;
+}
+#Price,#Delivery-Charges,#Amount-Payable{
+    display:flex;
+    justify-content:space-between;
+}
+#Price>p{
+    font-size:13px;
+}
+#Price>p+p{
+    font-weight:600;
+}
+#Delivery-Charges>p+p{
+    text-transform:uppercase;
+    color:#43a047;
+    font-size: 13px;
+    font-weight: 600;
+}
+#Price-Details>p,#Amount-Payable>p{
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:14px;
+    color:#333;
+}
+#Amount-Payable>p+p{
+    color:#003380;
 }

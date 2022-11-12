@@ -6,6 +6,14 @@ document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getIt
 if(JSON.parse(localStorage.getItem(`Profile`))==null){
     document.getElementById(`Profile`).textContent=` Login`;
 }
+const GetCartProducts=async()=>{
+    let Response=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`);
+    let Data=await Response.json();
+    if(Data.length!=0){
+        document.getElementById(`Cart-Count`).textContent=Data.length;
+    }
+}
+GetCartProducts()
 let local=JSON.parse(localStorage.getItem("showdetails"))||[];
 let data=local[0];
 let container=document.getElementById("container");
@@ -109,7 +117,7 @@ let count=0;
             }
             if(count==0){
 
-                let res= await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cartproduct`,{
+                let res= await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`,{
                     method:"POST",
                     body: JSON.stringify(newdata),
                     headers:{
@@ -119,7 +127,7 @@ let count=0;
                 let data=await res.json();
                 console.log(data);
                 count++;
-            
+                alert("Added to cart");
             }else{
                 alert("Product has already been added to card !!");
             }
