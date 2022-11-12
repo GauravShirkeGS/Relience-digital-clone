@@ -15,6 +15,7 @@ body{
 }
 
 #allnavbar{
+  padding: 20px;
   width: 100%;
   margin: auto;
   display: flex;
@@ -24,9 +25,6 @@ body{
   margin-top: 80px;
   height: 10%;
   background-color: #e42529;
-  padding-left: 50px;
-  padding-right: 50px;
-  z-index: 1;
 }
 #Navbar{
   display:flex;
@@ -84,7 +82,7 @@ img{
     background-color:white;
   }
   #CartLogin{
-    width:15%;
+    width:10%;
     font-weight:500;
     color:white;
     height:45px;

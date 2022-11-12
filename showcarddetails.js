@@ -2,7 +2,10 @@ import {Navbar,CategoryPanel,footer} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
 document.getElementById("footer").innerHTML=footer();
-
+document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getItem(`Profile`))}`;
+if(JSON.parse(localStorage.getItem(`Profile`))==null){
+    document.getElementById(`Profile`).textContent=` Login`;
+}
 let local=JSON.parse(localStorage.getItem("showdetails"))||[];
 let data=local[0];
 let container=document.getElementById("container");

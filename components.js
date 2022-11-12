@@ -12,7 +12,7 @@ const Navbar=()=>{
 </div>
 <div id="CartLogin">
 <a href="cart.html"><div id="Cart"><i class="fa-solid fa-cart-shopping"></i><cart-count id="Cart-Count">0</cart-count><span> Cart</span></div></a>
-<a href="login.html"><div id="User"><i class="fa-solid fa-user"></i><span id="Profile"></span>Login</div></a>
+<a href="login.html"><div id="User"><i class="fa-solid fa-user"></i><span id="Profile"></span></div></a>
 </div>
 </div>`
 }

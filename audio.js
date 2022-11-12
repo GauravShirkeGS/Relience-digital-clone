@@ -2,7 +2,10 @@ import {Navbar,CategoryPanel,footer} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
 document.getElementById("footer").innerHTML=footer();
-
+document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getItem(`Profile`))}`;
+if(JSON.parse(localStorage.getItem(`Profile`))==null){
+    document.getElementById(`Profile`).textContent=` Login`;
+}
 const cards = async () => {
 
  let res = await fetch(`https://636d5048b567eed48abef381.mockapi.io/musicProduct`);
