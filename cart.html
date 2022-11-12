@@ -12,9 +12,31 @@
 <body>
     <div id="Navbar"></div>
     <div id="Category-Panel"></div>
-    <div style="margin-top:150px ;"  id="Empty-Cart"><img src="https://www.reliancedigital.in/build/client/images/emptycart.png" alt=""></div>
-    <p>Your Shopping Cart is Empty</p>
+    <div style="margin-top:150px" id="Empty-Cart"><img src="https://www.reliancedigital.in/build/client/images/emptycart.png" alt=""></div>
+    <p id="Empty-Cart-Statement">Your Shopping Cart is Empty</p>
     <div id="Continue-Shopping"><button id="Continue-Shopping-Button">CONTINUE SHOPPING</button></div>
+    <div id="Checkout">
+        <div id="Cart-Products"></div>
+        <div id="Checkout-Section">
+            <button id="Checkout-Button">Checkout</button>
+            <div id="Price-Details">
+                <p>Price Details</p>
+                <div id="Price">
+                    <p>Price (<span id="Quantity"></span> Items)</p>
+                    <p>₹<span id="Total"></span></p>
+                </div>
+                <div id="Delivery-Charges">
+                    <p>Delivery Charges</p>
+                    <p>Free</p>
+                </div>
+                <hr>
+                <div id="Amount-Payable">
+                    <p>Amount Payable</p>
+                    <p>₹<span id="Total-Amount"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script type="module" src="./cart.js"></script>
 </html>
