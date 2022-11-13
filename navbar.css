@@ -131,6 +131,7 @@ img{
     position: fixed;
     margin-top: 82px;
     width: 100%;
+    z-index: 10;
 }
 #Category-Panel div{
     height: 100%;
