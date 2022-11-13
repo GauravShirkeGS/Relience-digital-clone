@@ -74,4 +74,3 @@ const RemoveCartProduct=async(element)=>{
         
         CartProducts(data);
 }
-
