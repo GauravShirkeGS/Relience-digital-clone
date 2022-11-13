@@ -45,17 +45,13 @@ const CartProducts=(Data)=>{
 const GetCartProducts=async()=>{
     let Response=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`);
     let Data=await Response.json();
-    if(Data.length!=0){
-        document.getElementById(`Cart-Count`).textContent=Data.length;
-        document.getElementById(`Quantity`).textContent=Data.length;
-        const initialValue = 0;
-        const sumWithInitial=Data.reduce((previousValue,currentValue)=>previousValue+currentValue.price,initialValue);
-        document.getElementById(`Total`).textContent=sumWithInitial;
-        document.getElementById(`Total-Amount`).textContent=sumWithInitial;
-    }
-    // console.log(Data);
+    document.getElementById(`Cart-Count`).textContent=Data.length;
+    document.getElementById(`Quantity`).textContent=Data.length;
+    const initialValue = 0;
+    const sumWithInitial=Data.reduce((previousValue,currentValue)=>previousValue+currentValue.price,initialValue);
+    document.getElementById(`Total`).textContent=sumWithInitial;
+    document.getElementById(`Total-Amount`).textContent=sumWithInitial;
     CartProducts(Data)
-
 }
 GetCartProducts()
 const RemoveCartProduct=async(element)=>{
