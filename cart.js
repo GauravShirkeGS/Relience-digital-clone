@@ -72,4 +72,5 @@ const RemoveCartProduct=async(element)=>{
         console.log(data);
         
         CartProducts(data);
+        window.location.reload();
 }
