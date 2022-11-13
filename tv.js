@@ -53,8 +53,10 @@ cards();
 
 
         let priceof= document.createElement('p');
-        priceof.innerText= el.price;
+        priceof.innerText= "Price : "+el.price;
         priceof.style.color="black";
+        priceof.style.marginTop="10px";
+        priceof.style.fontWeight="bold";
 
         let btn= document.createElement('button');
         btn.setAttribute('class','offers');

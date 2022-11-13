@@ -53,8 +53,10 @@ const append_cards = async (data) => {
 
 
         let priceof= document.createElement('p');
-        priceof.innerText= el.price;
-        priceof.style.color="black";
+        priceof.innerText= "Price : "+el.price;
+        priceof.style.color="green";
+        priceof.style.marginTop="10px";
+        priceof.style.fontWeight="bold";
 
         let btn= document.createElement('button');
         btn.setAttribute('class','offers');
