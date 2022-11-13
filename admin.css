@@ -1,0 +1,42 @@
+#add_products{
+
+    margin-top: 50px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+}
+
+#add_products>button{
+    margin-top: 20px;
+    padding: 7px 25px;
+}
+
+#form>input,#form>select{
+    height: 30px;
+}
+
+table{
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+table>thead>tr{
+    border: 1px solid black;
+font-size: 25px;
+margin-bottom: 36px;
+}
+
+tbody{
+    font-size: 18px;
+    margin-top: 10px;
+}

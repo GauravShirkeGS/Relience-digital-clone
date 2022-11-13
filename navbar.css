@@ -40,7 +40,7 @@ a{
     align-items:center;
     background-color:#e42529;
     position: -webkit-sticky;
-    z-index: 1;
+    z-index: 10;
 }
 #Logo{
     padding-left: 50px;
@@ -130,6 +130,7 @@ img{
     position: fixed;
     margin-top: 82px;
     width: 100%;
+    z-index: 10;
 }
 #Category-Panel div{
     height: 100%;

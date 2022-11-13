@@ -7,9 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="./all_products.css">
     <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer/footer.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
+    <div id="Navbar"></div>
+    <div id="Category-Panel"></div>
+
  <div id="container">
     <div id="filter">
         <h3>Sort by</h3>
@@ -17,12 +22,18 @@
         <button id="relevance">Relevanc</button>
         <button id="low">Price(low-high)</button>
         <button id="high">Price(high-low</button>
+
+        <!-- <h3>Filter by price</h3> -->
+
+        <!-- <input id="slider" type="range" min="0" max="100" > -->
     </div>
 
     <div id="cards"></div>
 
  </div>
 
+ <footer id="footer"></footer>
 </body>
 </html>
-<script src="./all_products.js"></script>
+<script type="module" src="./all_products.js"></script>
+<!-- <script type="module" src="./login.js"></script> -->

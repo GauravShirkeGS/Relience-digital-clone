@@ -93,9 +93,15 @@ container.append(div1,div2);
 
 cartbutton.onclick = async () => {
 
+    let obj={
+        imageURL : data.image,
+        title : data.name,
+        price : Number(data.price)
+    }
+
     let res = await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`,{
         method: 'POST',
-        body: JSON.stringify(data),
+        body: JSON.stringify(obj),
         headers : {
             "Content-Type": "application/json"
         }

@@ -32,6 +32,7 @@ body{
   align-items:center;
   background-color:#e42529;
   position: -webkit-sticky;
+  z-index: 10;
 }
 #Logo{
   width:5%;
@@ -120,12 +121,13 @@ img{
     position: fixed;
     margin-top: 82px;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
     
   }
   
   #slidercard{
     width: 350px;
+    z-index: 0;
 }
 #slidercard:hover h3{
   color: #e42529;

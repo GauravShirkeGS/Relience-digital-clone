@@ -1,4 +1,13 @@
 
+import {Navbar,CategoryPanel,footer} from "./components.js"
+document.getElementById(`Navbar`).innerHTML=Navbar();
+document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
+document.getElementById("footer").innerHTML=footer();
+
+
+
+
+
 let parameter = localStorage.getItem('parameter');
 
 const cards = async () => {
@@ -90,3 +99,21 @@ const cardfun = (data) => {
       
        
 }
+
+
+document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getItem(`Profile`))}`;
+if(JSON.parse(localStorage.getItem(`Profile`))==null){
+    document.getElementById(`Profile`).textContent=` Login`;
+}
+const GetCartProducts=async()=>{
+    let Response=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`);
+    let Data=await Response.json();
+    if(Data.length!=0){
+        document.getElementById(`Cart-Count`).textContent=Data.length;
+    }
+}
+GetCartProducts()
+
+let slider = document.getElementById('slider').value;
+
+console.log('slider:', slider)
