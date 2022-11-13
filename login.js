@@ -1,5 +1,6 @@
-import {Navbar,CategoryPanel} from "./components.js"
+import {Navbar,CategoryPanel,footer} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
+document.getElementById("footer").innerHTML=footer();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
 document.getElementById(`Cart`).onclick=()=>{
     window.location.href=`cart.html`;
@@ -43,12 +44,23 @@ const Login=(Data)=>{
             }
         })
         if(Flag){
-            alert(`Welcome to Go Shop`)
             window.location.href=`index.html`;
         }
         else{
             alert(`Please enter correct credentials`)
         }
+    }
+}
+if(JSON.parse(localStorage.getItem(`Profile`))!=null){
+    document.getElementById(`Login-Header`).style.display=`none`;
+    document.getElementById(`Login-Form`).style.display=`none`;
+    let Logout=document.createElement(`button`);
+    Logout.innerText=`Logout`;
+    Logout.setAttribute(`id`,`Logout`)
+    document.getElementById(`Logout-Button`).append(Logout)
+    document.getElementById(`Logout`).onclick=()=>{
+        localStorage.setItem(`Profile`,null)
+        window.location.href=`index.html`;
     }
 }
 document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getItem(`Profile`))}`;

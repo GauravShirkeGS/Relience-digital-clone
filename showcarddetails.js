@@ -109,7 +109,7 @@ let count=0;
     const addtocart=async(details)=>{
         try{
             let newdata={
-                id:details.id,
+                id:toString(details.id),
                 title:details.title,
                 price:details.price,
                 quantity:details.quantity,
