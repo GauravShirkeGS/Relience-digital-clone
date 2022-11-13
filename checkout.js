@@ -29,12 +29,25 @@ let cvvStr= payObj.cvv.toString();
 
 let btn = document.getElementById('enter');
 
-btn.onclick = () => {
+btn.onclick = async () => {
 let otp = document.getElementById('otp').value;
 
 if(otp == 1234){
     alert('Payment Successful')
-    window.location.href="index.html"
+  
+
+    let res = await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`)
+    let data= await res.json();
+
+   for(let i=0;i<data.length;i++){
+
+    let des = await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product/${data[i].id}`,{
+     method :'DELETE'
+    })
+        
+   }
+
+   window.location.href="index.html"
 }
 else{
     alert ("otp does not match")
