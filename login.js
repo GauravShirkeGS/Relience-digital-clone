@@ -1,4 +1,4 @@
-import {Navbar,CategoryPanel,login} from "./components.js"
+import {Navbar,CategoryPanel} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
 document.getElementById(`Cart`).onclick=()=>{
