@@ -1,7 +1,7 @@
-/* import {Navbar,CategoryPanel} from "./components.js"
+ import {Navbar,CategoryPanel} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
-*/
+
 
 let data=JSON.parse(localStorage.getItem("showdetailes"));
 let container=document.getElementById("container");
