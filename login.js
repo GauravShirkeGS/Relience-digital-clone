@@ -68,6 +68,7 @@ if(JSON.parse(localStorage.getItem(`Profile`))!=null){
     }
     let admin=document.getElementById("admin");
         admin.innerText="Admin Pannel (ONLY FOR SALERS)";
+        admin.style.textAlign="center";
         admin.onclick=()=>{
             window.location.href="admin.html";
         }
