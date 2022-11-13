@@ -53,23 +53,25 @@ const GetCartProducts=async()=>{
     document.getElementById(`Total-Amount`).textContent=sumWithInitial;
     CartProducts(Data)
 }
-GetCartProducts()
+let Response=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`);
+let Data=await Response.json();
+if(Data.length==0){
+    document.getElementById(`Checkout`).style.display=`none`;
+}
+else{
+    GetCartProducts()
+}
 const RemoveCartProduct=async(element)=>{
-    
-        let res= await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product/${element.id}`,{
-            method:"DELETE",
-            headers:{
-                "content-type":"application/json"
-            }
-        });
-      
-        let deletedData= await res.json();
-        console.log(deletedData);
-      
-      
-        let response= await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`);
-        let data = await response.json();
-        console.log(data);
-        
-        CartProducts(data);
+    let Response=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product/${element.id}`,{
+        method:"DELETE",
+        headers:{
+            "Content-Type":"application/json"
+        }
+    });
+    let NewResponse=await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`);
+    let Data=await NewResponse.json();
+    if(Data.length==0){
+        window.location.reload()
+    }
+    GetCartProducts()
 }
