@@ -183,3 +183,14 @@ a{
     color: white;
     text-decoration: none;
 }
+#admin{
+    width:89%;
+    padding:15px;
+    border:none;
+    background-color:blue;
+    color:white;
+    text-transform:uppercase;
+    font-weight:600;
+    margin-top:30px;
+    margin-left:40px;
+}
