@@ -1,0 +1,64 @@
+form{
+
+    width: 25%;
+    margin: auto;
+     display: flex;
+     flex-direction: column;
+     height: 400px;
+     gap: 25px;
+     padding: 25px;
+     justify-content: center;
+     border-radius: 8px;
+     background-color: teal;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+input{
+    height: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+h1{
+    text-align: center;
+    color: #e91e62;
+}
+#date+input{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bolder;
+   
+}
+#date+input:hover{
+    color: #e91e62;
+
+
+}
+
+#otp_div{
+    width: 25%;
+    margin: auto;
+    margin-top: 50px;
+    display: none;
+}
+
+#otp_div>button{
+    padding: 14px 30px;
+    margin-left: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#resend{
+    display: none;
+    background-color: #e91e62;
+    border: none;
+    border-radius: 9px;
+    margin-left: 30px;
+}
+#enter{
+    background-color: green;
+    border-radius: 9px;
+    border: none;
+}

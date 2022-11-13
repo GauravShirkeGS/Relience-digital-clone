@@ -1,3 +1,10 @@
+import {Navbar,CategoryPanel,footer} from "./components.js"
+document.getElementById(`Navbar`).innerHTML=Navbar();
+document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
+document.getElementById("footer").innerHTML=footer();
+document.getElementById(`Profile`).textContent=` ${JSON.parse(localStorage.getItem(`Profile`))}`;
+
+
 const post_data = async () => {
     let name = document.getElementById('name').value;
     let price = document.getElementById('price').value;

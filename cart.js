@@ -73,3 +73,8 @@ const RemoveCartProduct=async(element)=>{
         
         CartProducts(data);
 }
+
+let Checkout_Button = document.getElementById('Checkout-Button');
+Checkout_Button.onclick=() => {
+    window.location.href = "checkout.html"
+}
