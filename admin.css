@@ -5,7 +5,9 @@
     margin: auto;
     text-align: center;
 }
-
+#admin_div{
+    margin-top: 155px;
+}
 #form{
     display: flex;
     flex-direction: column;
@@ -40,3 +42,22 @@ tbody{
     font-size: 18px;
     margin-top: 10px;
 }
+table{
+    width: 70%;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  thead{
+    height: 50px;
+    font-size: 21px;
+    background-color: #ffbf06;
+  }
+  tbody{
+    /* height: 30px; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 50px;
+   
+  }
+ 

@@ -36,6 +36,7 @@ const CartProducts=(Data)=>{
         Remove.innerText=`Remove`;
         Remove.onclick=()=>{
             RemoveCartProduct(element)
+            // window.location.reload();
         }
         let div=document.createElement(`div`);
         div.append(Imagediv,Title,Price,Remove)

@@ -115,7 +115,6 @@ let count=0;
                 quantity:details.quantity,
                 imageURL:details.imageURL,
             }
-            if(count==0){
 
                 let res= await fetch(`https://636df0bbb567eed48acd7f24.mockapi.io/cart-product`,{
                     method:"POST",
@@ -126,11 +125,8 @@ let count=0;
                 });
                 let data=await res.json();
                 console.log(data);
-                count++;
                 alert("Added to cart");
-            }else{
-                alert("Product has already been added to card !!");
-            }
+                window.location.reload();
         }catch(err){
             console.log(err);
         }
