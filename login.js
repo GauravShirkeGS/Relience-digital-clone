@@ -1,5 +1,6 @@
-import {Navbar,CategoryPanel} from "./components.js"
+import {Navbar,CategoryPanel,footer} from "./components.js"
 document.getElementById(`Navbar`).innerHTML=Navbar();
+document.getElementById("footer").innerHTML=footer();
 document.getElementById(`Category-Panel`).innerHTML=CategoryPanel();
 document.getElementById(`Cart`).onclick=()=>{
     window.location.href=`cart.html`;
