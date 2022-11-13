@@ -16,6 +16,7 @@ input{
     height: 40px;
     text-align: center;
     letter-spacing: 2px;
+    border-radius: 9px;
 }
 h1{
     text-align: center;
