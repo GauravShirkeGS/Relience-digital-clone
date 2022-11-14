@@ -16,12 +16,21 @@
 
 <div id="admin_div">
 
+   <div id="type_btn">
+    <button value="apple_iphone" id="apple_iphone">iPhones</button>
+    <button value="musicProduct" id="musicProduct">Music Products</button>
+    <button value="tv" id="tv">TV</button>
+    <button value="watches" id="watches">Watches</button>
+    <button value="other" id="other">APPLIANCES</button>
+   </div>
+
     <div id="add_products">
-        <h1>Add Products</h1>
-    <form id="form">
+    
+  
       <input type="text" id="name" placeholder="Name">
       <input type="number" id="price" placeholder="Price">
       <select name="" id="typeof">
+        <option value="">select category</option>
         <option value="apple_iphone"> Apple iPhone</option>
         <option value="musicProduct">musicProduct</option>
         <option value="tv">TV</option>
@@ -31,30 +40,12 @@
       <input type="text" id="description" placeholder="warranty">
       <input type="text" id="delivery" placeholder="description">
       <input type="url" id="image" placeholder="Image url">
-    </form>
      <button  id="add_product">add product</button>
       </div>
 </div>
  
   <div id="added">
-    <table >
-    <thead>
-     <tr>
-      <!-- <th>image</th> -->
-      <th>product name</th>
-      <th>product type</th>
-      <th>price</th>
-      <th>change price</th>
-      <th>delete</th>
-     </tr>
-
-    </thead>
-    
-    <tbody id="tbody">
-
-    </tbody >
-
-    </table>
+  
   </div>
     
   <hr>

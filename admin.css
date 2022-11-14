@@ -1,63 +1,73 @@
 #add_products{
-
-    margin-top: 50px;
-    width: 40%;
-    margin: auto;
+    width: 85%;
     text-align: center;
-}
-#admin_div{
-    margin-top: 155px;
-}
-#form{
     display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: auto;
-    gap: 20px;
-}
-
-#add_products>button{
-    margin-top: 20px;
-    padding: 7px 25px;
-}
-
-#form>input,#form>select{
+    border: 1px solid;
+    gap: 30px;
     height: 30px;
+    justify-content: space-around;
 }
 
-table{
-    width: 65%;
+#admin_div{
+    margin-top: 130px;
+
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 210px;
+    padding: 8px;
+  border: 1px solid;
+}
+
+.item>img{
+    width: 200px;
+    height: 200px;
+}
+
+#added{
+    width: 96%;
     margin: auto;
-    margin-top: 50px;
-    text-align: center;
-}
-
-table>thead>tr{
-    border: 1px solid black;
-font-size: 25px;
-margin-bottom: 36px;
-}
-
-tbody{
-    font-size: 18px;
-    margin-top: 10px;
-}
-table{
-    width: 70%;
-    margin: auto;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  }
-  thead{
-    height: 50px;
-    font-size: 21px;
-    background-color: #ffbf06;
-  }
-  tbody{
-    /* height: 30px; */
-    text-align: center;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
    
-  }
- 
+    gap: 20px;
+    column-gap: 35px;
+    margin-top: 40px;
+}
+
+.name_dev{
+    width: 40%;
+    /* border: 1px solid; */
+}
+
+.name_dev+div>button{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border: 1px solid;
+    padding: 6px 25px;
+}
+
+.name_dev+div>div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name_dev+div{
+    text-align: center;
+}
+.name_dev+div>div>button{
+    height: 25px;
+}
+
+.name_dev+div>div>input{
+    /* width: 80px; */
+    height: 25px;
+}
+
+body{
+    margin-right: 15px;
+}
